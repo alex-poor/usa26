@@ -56,7 +56,11 @@ export default function DrawReveal({ onClose }) {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '40px 26px', position: 'relative', width: '100%', maxWidth: 480, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 26 }}>
-          <img src={`${BASE}trump.webp`} alt="" style={{ width: 140, height: 'auto', borderRadius: 16, border: '2.5px solid var(--ink)', boxShadow: 'var(--hard)', margin: '0 auto 18px', display: 'block' }} />
+          <img src={`${BASE}trump.webp`} alt="" style={{
+            width: '100%', maxWidth: 400, height: 'auto', margin: '0 auto 8px', display: 'block',
+            WebkitMaskImage: 'radial-gradient(ellipse 72% 72% at 50% 50%, #000 50%, transparent 78%)',
+            maskImage: 'radial-gradient(ellipse 72% 72% at 50% 50%, #000 50%, transparent 78%)',
+          }} />
           <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '.24em', color: 'var(--gold)', textTransform: 'uppercase' }}>WC 2026 Sweepstake</div>
           <div className="foil" style={{ fontFamily: 'var(--disp)', fontSize: 52, lineHeight: .9, textTransform: 'uppercase', marginTop: 4, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>The Draw</div>
           <div style={{ fontSize: 13, color: 'rgba(255,255,255,.6)', fontWeight: 600, marginTop: 8 }}>
