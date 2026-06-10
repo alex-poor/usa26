@@ -8,6 +8,7 @@ import PlayerDetail from '../screens/PlayerDetail.jsx'
 import Matches from '../screens/Matches.jsx'
 import DrawReveal from '../overlays/DrawReveal.jsx'
 import TeamModal from '../overlays/TeamModal.jsx'
+import Picker from '../overlays/Picker.jsx'
 
 const VIEWS = ['today', 'squad', 'table', 'matches']
 
@@ -68,6 +69,8 @@ function Sidebar({ view, onNav, onDraw }) {
 
 export default function App() {
   const K = useKaro()
+  // First run: no identity chosen yet (and players exist) → show the picker.
+  if (!K.meChosen && K.PLAYERS.length) return <div className="karo-app tilts"><Picker /></div>
   const initialView = (() => {
     const param = new URLSearchParams(window.location.search).get('view')
     if (param && VIEWS.includes(param)) return param

@@ -35,7 +35,7 @@ export function KaroProvider({ children }) {
   const [raw, setRaw] = useState(null)
   const [alias, setAlias] = useState(() => { try { return localStorage.getItem('karo.alias') || null } catch { return null } })
   const [teamCode, setTeamCode] = useState(null)
-  const meId = useMemo(readMeId, [])
+  const [meId, setMeId] = useState(readMeId)
 
   useEffect(() => {
     Promise.all([
@@ -67,6 +67,18 @@ export function KaroProvider({ children }) {
     try { localStorage.setItem('karo.alias', next) } catch {}
   }, [model])
 
+  // identity: who the viewer is. Chosen via ?me=, the picker, or remembered.
+  const setMe = useCallback((id) => {
+    try { localStorage.setItem('karo.me', id) } catch {}
+    setMeId(id)
+  }, [])
+  const switchMe = useCallback(() => {
+    try { localStorage.removeItem('karo.me'); localStorage.removeItem('karo.alias') } catch {}
+    setAlias(null)
+    setMeId(null)
+  }, [])
+  const meChosen = !!meId
+
   if (!model) {
     return (
       <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--ink-3)', fontFamily: 'var(--disp)', fontSize: 22 }}>
@@ -76,7 +88,7 @@ export function KaroProvider({ children }) {
   }
 
   return (
-    <KaroContext.Provider value={{ ...model, rename, teamCode, closeTeam }}>
+    <KaroContext.Provider value={{ ...model, rename, teamCode, closeTeam, meChosen, setMe, switchMe }}>
       <OpenTeamContext.Provider value={openTeam}>
         {children}
       </OpenTeamContext.Provider>

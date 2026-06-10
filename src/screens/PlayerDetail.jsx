@@ -190,6 +190,12 @@ export default function PlayerDetail({ player, onBack, topLevel }) {
                     Rename
                   </button>
                 )}
+                {player.you && topLevel && !editing && (
+                  <button onClick={() => K.switchMe()} title="Not you? Switch player" style={{ display: 'inline-flex', alignItems: 'center', gap: 4, padding: '3px 8px', borderRadius: 8, border: '2px solid var(--ink)', background: '#fff', cursor: 'pointer', fontWeight: 800, fontSize: 11, color: 'var(--ink)', boxShadow: 'var(--hard-sm)' }}>
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none"><path d="M7 8l-3 3 3 3M4 11h12M17 16l3-3-3-3M20 13H8" stroke="var(--ink)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    Switch
+                  </button>
+                )}
               </div>
             </div>
           </div>
