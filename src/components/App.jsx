@@ -9,6 +9,7 @@ import Matches from '../screens/Matches.jsx'
 import DrawReveal from '../overlays/DrawReveal.jsx'
 import TeamModal from '../overlays/TeamModal.jsx'
 import Picker from '../overlays/Picker.jsx'
+import HelpModal from '../overlays/HelpModal.jsx'
 
 const VIEWS = ['today', 'squad', 'table', 'matches']
 
@@ -30,7 +31,7 @@ function TabBar({ view, onNav }) {
   )
 }
 
-function Sidebar({ view, onNav, onDraw }) {
+function Sidebar({ view, onNav, onDraw, onHelp }) {
   const { you } = useKaro()
   const items = [['today', 'Today', Icons.today], ['squad', 'My Squad', Icons.draw], ['table', 'The Table', Icons.table], ['matches', 'Matches', Icons.matches]]
   return (
@@ -52,6 +53,9 @@ function Sidebar({ view, onNav, onDraw }) {
       <div className="side-foot">
         <button className="side-draw foil foil--anim" onClick={onDraw}>
           <span style={{ fontSize: 17 }}>🎟️</span> Re-live the Draw
+        </button>
+        <button onClick={onHelp} style={{ width: '100%', display: 'flex', alignItems: 'center', gap: 8, padding: '9px 13px', marginBottom: 10, borderRadius: 12, border: '2px solid var(--ink)', background: 'var(--card)', cursor: 'pointer', fontFamily: 'var(--ui)', fontWeight: 800, fontSize: 13, color: 'var(--ink-2)', boxShadow: 'var(--hard-sm)' }}>
+          <span style={{ fontSize: 15 }}>❓</span> How it works
         </button>
         {you && (
           <button className="side-me" onClick={() => onNav('squad')} style={{ border: 'none', background: 'none', cursor: 'pointer', width: '100%', textAlign: 'left' }}>
@@ -80,6 +84,7 @@ export default function App() {
   const [view, setView] = useState(initialView)
   const [player, setPlayer] = useState(null)
   const [draw, setDraw] = useState(() => new URLSearchParams(window.location.search).get('draw') === '1')
+  const [help, setHelp] = useState(() => new URLSearchParams(window.location.search).get('help') === '1')
   const mainRef = useRef(null)
 
   useEffect(() => { try { localStorage.setItem('karo.view', view) } catch {} }, [view])
@@ -105,11 +110,13 @@ export default function App() {
 
   return (
     <div className="karo-app tilts">
-      <Sidebar view={activeView} onNav={nav} onDraw={() => setDraw(true)} />
+      <Sidebar view={activeView} onNav={nav} onDraw={() => setDraw(true)} onHelp={() => setHelp(true)} />
       <div className="karo-main" ref={mainRef}>{screen}</div>
       <TabBar view={activeView} onNav={nav} />
+      <button className="help-fab" onClick={() => setHelp(true)} aria-label="How it works">?</button>
       {draw && K.you && <DrawReveal onClose={() => setDraw(false)} />}
       {K.teamCode && <TeamModal code={K.teamCode} onClose={K.closeTeam} />}
+      {help && <HelpModal onClose={() => setHelp(false)} />}
     </div>
   )
 }

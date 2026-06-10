@@ -235,12 +235,17 @@ export function buildModel(raw, opts) {
 
   // previous standings from the snapshot the Action persists (if any)
   const prev = opts.prevTotals || null;
-  if (prev) {
-    const prevRanked = [...PLAYERS]
-      .map(p => ({ id: p.id, total: prev[p.id] ?? p.total }))
-      .sort((a, b) => b.total - a.total)
-      .map((p, i) => [p.id, i + 1]);
-    const prevRankMap = Object.fromEntries(prevRanked);
+  // Only treat the snapshot as real movement once someone has actually scored
+  // — otherwise tie-break ordering produces phantom "moves" at 0–0–0.
+  const hasPrevScores = prev && Object.values(prev).some(v => v > 0);
+  if (hasPrevScores) {
+    const prevRankMap = Object.fromEntries(
+      [...PLAYERS]
+        .map(p => ({ id: p.id, name: p.name, total: prev[p.id] ?? 0 }))
+        // same comparator as `ranked` so equal scores don't shuffle
+        .sort((a, b) => b.total - a.total || a.name.localeCompare(b.name))
+        .map((p, i) => [p.id, i + 1])
+    );
     for (const p of PLAYERS) {
       p.prevRank = prevRankMap[p.id] ?? p.rank;
       p.move = p.prevRank - p.rank;
