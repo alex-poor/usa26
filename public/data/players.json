@@ -2,6 +2,7 @@
   {
     "id": "alex",
     "name": "Alex",
+    "alias": "Accrington North End Olympic",
     "teams": [
       "POR",
       "ALG",
@@ -38,6 +39,7 @@
   {
     "id": "cliff",
     "name": "Cliff",
+    "alias": "Cliff Edge FC",
     "teams": [
       "GER",
       "IRN",
