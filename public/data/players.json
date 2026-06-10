@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "alice",
+    "name": "Alice",
+    "teams": [
+      "COL",
+      "EGY",
+      "COD"
+    ]
+  },
+  {
+    "id": "bob",
+    "name": "Bob",
+    "teams": [
+      "NED",
+      "ECU",
+      "HAI"
+    ]
+  },
+  {
+    "id": "charlie",
+    "name": "Charlie",
+    "teams": [
+      "ENG",
+      "KOR",
+      "CPV"
+    ]
+  },
+  {
+    "id": "diana",
+    "name": "Diana",
+    "teams": [
+      "ARG",
+      "CIV",
+      "RSA"
+    ]
+  },
+  {
+    "id": "ed",
+    "name": "Ed",
+    "teams": [
+      "CRO",
+      "AUT",
+      "JOR"
+    ]
+  },
+  {
+    "id": "fiona",
+    "name": "Fiona",
+    "teams": [
+      "SEN",
+      "PAN",
+      "QAT"
+    ]
+  },
+  {
+    "id": "george",
+    "name": "George",
+    "teams": [
+      "FRA",
+      "IRN",
+      "KSA"
+    ]
+  },
+  {
+    "id": "hannah",
+    "name": "Hannah",
+    "teams": [
+      "GER",
+      "SWE",
+      "BIH"
+    ]
+  },
+  {
+    "id": "ivan",
+    "name": "Ivan",
+    "teams": [
+      "MEX",
+      "SUI",
+      "GHA"
+    ]
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "teams": [
+      "ESP",
+      "AUS",
+      "TUN"
+    ]
+  }
+]

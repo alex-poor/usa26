@@ -1,3 +1,7 @@
 node_modules
 dist
 .env
+
+# Design handoff collateral (reference only, not shipped)
+KaroCup.zip
+design_review/

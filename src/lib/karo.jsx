@@ -1,0 +1,93 @@
+import { createContext, useContext, useEffect, useMemo, useState, useCallback } from 'react'
+import { buildModel, ALIAS_MAX } from './model.js'
+
+const BASE = import.meta.env.BASE_URL
+
+async function fetchJSON(path, fallback) {
+  try {
+    const res = await fetch(`${BASE}data/${path}`)
+    if (!res.ok) throw new Error(res.status)
+    return await res.json()
+  } catch {
+    return fallback
+  }
+}
+
+function readMeId() {
+  const url = new URLSearchParams(window.location.search).get('me')
+  if (url) {
+    try { localStorage.setItem('karo.me', url) } catch {}
+    return url
+  }
+  try { return localStorage.getItem('karo.me') || null } catch { return null }
+}
+
+function todayISO() {
+  // local calendar date (browser context — Date is available here)
+  const d = new Date()
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+}
+
+const KaroContext = createContext(null)
+const OpenTeamContext = createContext(() => {})
+
+export function KaroProvider({ children }) {
+  const [raw, setRaw] = useState(null)
+  const [alias, setAlias] = useState(() => { try { return localStorage.getItem('karo.alias') || null } catch { return null } })
+  const [teamCode, setTeamCode] = useState(null)
+  const meId = useMemo(readMeId, [])
+
+  useEffect(() => {
+    Promise.all([
+      fetchJSON('teams.json', []),
+      fetchJSON('players.json', []),
+      fetchJSON('matches.json', []),
+      fetchJSON('scores.json', { lastUpdated: null, players: [], prevTotals: null }),
+    ]).then(([teams, players, matches, scores]) => {
+      setRaw({ teams, players, matches, scores })
+    })
+  }, [])
+
+  const model = useMemo(() => {
+    if (!raw) return null
+    const prevTotals = raw.scores?.prevTotals || null
+    const m = buildModel(raw, { meId, alias, todayISO: todayISO(), prevTotals })
+    m.lastUpdated = raw.scores?.lastUpdated || null
+    return m
+  }, [raw, meId, alias])
+
+  const openTeam = useCallback((code) => setTeamCode(code), [])
+  const closeTeam = useCallback(() => setTeamCode(null), [])
+
+  const rename = useCallback((name) => {
+    const v = (name || '').slice(0, ALIAS_MAX).trim()
+    const next = v || (model?.you?.name ?? '')
+    setAlias(next)
+    try { localStorage.setItem('karo.alias', next) } catch {}
+  }, [model])
+
+  if (!model) {
+    return (
+      <div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--ink-3)', fontFamily: 'var(--disp)', fontSize: 22 }}>
+        Loading…
+      </div>
+    )
+  }
+
+  return (
+    <KaroContext.Provider value={{ ...model, rename, teamCode, closeTeam }}>
+      <OpenTeamContext.Provider value={openTeam}>
+        {children}
+      </OpenTeamContext.Provider>
+    </KaroContext.Provider>
+  )
+}
+
+export function useKaro() {
+  const v = useContext(KaroContext)
+  if (!v) throw new Error('useKaro outside provider')
+  return v
+}
+export function useOpenTeam() {
+  return useContext(OpenTeamContext)
+}

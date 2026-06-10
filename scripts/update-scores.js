@@ -47,6 +47,8 @@ function parseMatch(raw) {
     homeScore: finished ? (raw.score.fullTime.home ?? 0) : null,
     awayScore: finished ? (raw.score.fullTime.away ?? 0) : null,
     date: raw.utcDate.slice(0, 10),
+    time: raw.utcDate.slice(11, 16),
+    venue: raw.venue ?? '',
     stage: raw.stage,
     group: raw.group ?? null,
     status: raw.status,
@@ -194,9 +196,21 @@ async function main() {
     return { id: player.id, name: player.name, total: playerTotal, teams: teamScores }
   })
 
+  // snapshot the prior run's totals so the UI can show movement
+  let prevTotals = {}
+  try {
+    const old = JSON.parse(readFileSync(join(dataDir, 'scores.json'), 'utf8'))
+    if (old.players?.length) {
+      prevTotals = Object.fromEntries(old.players.map(p => [p.id, p.total]))
+    } else if (old.prevTotals) {
+      prevTotals = old.prevTotals
+    }
+  } catch {}
+
   writeFileSync(join(dataDir, 'matches.json'), JSON.stringify(matches, null, 2))
   writeFileSync(join(dataDir, 'scores.json'), JSON.stringify({
     lastUpdated: new Date().toISOString(),
+    prevTotals,
     players: playerScores,
   }, null, 2))
 
