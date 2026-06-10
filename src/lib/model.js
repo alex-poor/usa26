@@ -55,12 +55,16 @@ export const TZ = 'Pacific/Auckland';
 const nzIsoFmt = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' });
 const nzDayFmt = new Intl.DateTimeFormat('en-US', { timeZone: TZ, month: 'short', day: 'numeric' });
 const nzTimeFmt = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
+const nzDowFmt = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, weekday: 'short', day: 'numeric', month: 'short' });
 
-// Convert a UTC instant to NZ-local { iso: 'yyyy-mm-dd', date: 'Jun 12', time: '07:00' }
+// Convert a UTC instant to NZ-local parts plus a sortable timestamp.
 function nzFrom(utcISO) {
   const d = new Date(utcISO);
-  if (isNaN(d)) return { iso: null, date: 'TBC', time: '' };
-  return { iso: nzIsoFmt.format(d), date: nzDayFmt.format(d), time: nzTimeFmt.format(d) };
+  if (isNaN(d)) return { iso: null, date: 'TBC', time: '', dayLabel: 'Date TBC', ts: Infinity };
+  return {
+    iso: nzIsoFmt.format(d), date: nzDayFmt.format(d), time: nzTimeFmt.format(d),
+    dayLabel: nzDowFmt.format(d), ts: d.getTime(),
+  };
 }
 // Reconstruct the match's UTC instant from the feed's UTC date + time.
 function matchUtc(m) {
@@ -112,7 +116,7 @@ export function buildModel(raw, opts) {
       ga: played ? (m.homeScore ?? 0) : null,
       gb: played ? (m.awayScore ?? 0) : null,
       played,
-      iso: nz.iso, date: nz.date,
+      iso: nz.iso, date: nz.date, dayLabel: nz.dayLabel, ts: nz.ts,
       time: m.time ? nz.time : '', venue: m.venue || '',
       today: nz.iso === todayISO,
       // per-team event tallies carried from the feed (best-effort)
