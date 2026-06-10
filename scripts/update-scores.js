@@ -48,6 +48,7 @@ function parseMatch(raw) {
     awayScore: finished ? (raw.score.fullTime.away ?? 0) : null,
     date: raw.utcDate.slice(0, 10),
     time: raw.utcDate.slice(11, 16),
+    utc: raw.utcDate, // full UTC instant; the app localises this to NZ time
     venue: raw.venue ?? '',
     stage: raw.stage,
     group: raw.group ?? null,

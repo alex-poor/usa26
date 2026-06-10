@@ -50,11 +50,23 @@ const AVATAR_COLORS = [
 
 const ADJ = ['plucky', 'fearless', 'unpredictable', 'streetwise', 'underrated', 'spirited'];
 
-function fmtDate(iso) {
-  if (!iso) return 'TBC';
-  const [y, m, d] = iso.split('-').map(Number);
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  return `${months[m - 1]} ${d}`;
+// ---- New Zealand local time (handles NZST/NZDT automatically) -------------
+export const TZ = 'Pacific/Auckland';
+const nzIsoFmt = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' });
+const nzDayFmt = new Intl.DateTimeFormat('en-US', { timeZone: TZ, month: 'short', day: 'numeric' });
+const nzTimeFmt = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
+
+// Convert a UTC instant to NZ-local { iso: 'yyyy-mm-dd', date: 'Jun 12', time: '07:00' }
+function nzFrom(utcISO) {
+  const d = new Date(utcISO);
+  if (isNaN(d)) return { iso: null, date: 'TBC', time: '' };
+  return { iso: nzIsoFmt.format(d), date: nzDayFmt.format(d), time: nzTimeFmt.format(d) };
+}
+// Reconstruct the match's UTC instant from the feed's UTC date + time.
+function matchUtc(m) {
+  if (m.utc) return m.utc;
+  if (!m.date) return null;
+  return `${m.date}T${m.time || '12:00'}:00Z`;
 }
 function fmtLongDate(iso) {
   if (!iso) return '';
@@ -93,15 +105,16 @@ export function buildModel(raw, opts) {
     const played = m.status === 'FINISHED';
     const stageLabel = groupLetter ? `Group ${groupLetter}`
       : (m.stage === 'THIRD_PLACE' ? '3rd Place' : STAGE_INFO[stage].label);
+    const nz = nzFrom(matchUtc(m)); // localise the UTC kickoff to NZ time
     return {
       id: String(m.id), stage, stageLabel,
       a: m.homeTeam || null, b: m.awayTeam || null,
       ga: played ? (m.homeScore ?? 0) : null,
       gb: played ? (m.awayScore ?? 0) : null,
       played,
-      iso: m.date, date: fmtDate(m.date),
-      time: m.time || '', venue: m.venue || '',
-      today: m.date === todayISO,
+      iso: nz.iso, date: nz.date,
+      time: m.time ? nz.time : '', venue: m.venue || '',
+      today: nz.iso === todayISO,
       // per-team event tallies carried from the feed (best-effort)
       raw: m,
     };

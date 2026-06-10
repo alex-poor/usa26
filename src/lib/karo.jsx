@@ -23,9 +23,9 @@ function readMeId() {
 }
 
 function todayISO() {
-  // local calendar date (browser context — Date is available here)
-  const d = new Date()
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+  // NZ calendar date, so "today" matches the schedule regardless of where
+  // the viewer is. Pacific/Auckland handles NZST/NZDT automatically.
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Pacific/Auckland', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date())
 }
 
 const KaroContext = createContext(null)

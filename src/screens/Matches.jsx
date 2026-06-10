@@ -124,7 +124,7 @@ export default function Matches() {
       <div className="app-header">
         <div className="kicker">Fixtures &amp; Results</div>
         <h1>Matches</h1>
-        <div className="sub">{K.MATCHES.length} games · groups through the final</div>
+        <div className="sub">{K.MATCHES.length} games · all times NZ</div>
       </div>
 
       <div style={{ padding: '0 16px 16px' }}>
