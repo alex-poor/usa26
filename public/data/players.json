@@ -1,92 +1,101 @@
 [
   {
-    "id": "alice",
-    "name": "Alice",
+    "id": "alex",
+    "name": "Alex",
     "teams": [
-      "COL",
-      "EGY",
+      "POR",
+      "ALG",
       "COD"
     ]
   },
   {
-    "id": "bob",
-    "name": "Bob",
+    "id": "brett",
+    "name": "Brett",
     "teams": [
-      "NED",
-      "ECU",
-      "HAI"
-    ]
-  },
-  {
-    "id": "charlie",
-    "name": "Charlie",
-    "teams": [
-      "ENG",
-      "KOR",
-      "CPV"
-    ]
-  },
-  {
-    "id": "diana",
-    "name": "Diana",
-    "teams": [
-      "ARG",
-      "CIV",
+      "ESP",
+      "CAN",
       "RSA"
     ]
   },
   {
-    "id": "ed",
-    "name": "Ed",
+    "id": "surane",
+    "name": "Surané",
     "teams": [
-      "CRO",
-      "AUT",
-      "JOR"
+      "ARG",
+      "CIV",
+      "NZL"
     ]
   },
   {
-    "id": "fiona",
-    "name": "Fiona",
+    "id": "ardeshir",
+    "name": "Ardeshir",
     "teams": [
-      "SEN",
-      "PAN",
-      "QAT"
-    ]
-  },
-  {
-    "id": "george",
-    "name": "George",
-    "teams": [
-      "FRA",
-      "IRN",
-      "KSA"
-    ]
-  },
-  {
-    "id": "hannah",
-    "name": "Hannah",
-    "teams": [
-      "GER",
-      "SWE",
+      "COL",
+      "SUI",
       "BIH"
     ]
   },
   {
-    "id": "ivan",
-    "name": "Ivan",
+    "id": "cliff",
+    "name": "Cliff",
     "teams": [
-      "MEX",
-      "SUI",
-      "GHA"
+      "GER",
+      "IRN",
+      "IRQ"
     ]
   },
   {
-    "id": "julia",
-    "name": "Julia",
+    "id": "david",
+    "name": "David",
     "teams": [
-      "ESP",
+      "CRO",
+      "CZE",
+      "JOR"
+    ]
+  },
+  {
+    "id": "felipe",
+    "name": "Felipe",
+    "teams": [
+      "BEL",
+      "ECU",
+      "PAR"
+    ]
+  },
+  {
+    "id": "kyle",
+    "name": "Kyle",
+    "teams": [
+      "FRA",
+      "KOR",
+      "UZB"
+    ]
+  },
+  {
+    "id": "rei",
+    "name": "Rei",
+    "teams": [
+      "BRA",
       "AUS",
-      "TUN"
+      "HAI"
+    ]
+  },
+  {
+    "id": "milan",
+    "name": "Milan",
+    "teams": [
+      "ENG",
+      "SWE",
+      "CUW"
+    ]
+  },
+  {
+    "id": "nathan",
+    "name": "Nathan",
+    "teams": [
+      "URY",
+      "JPN",
+      "KSA"
     ]
   }
 ]

@@ -5,6 +5,7 @@
 import { readFileSync, writeFileSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
+import { randomInt } from 'node:crypto'
 
 const __dir = dirname(fileURLToPath(import.meta.url))
 const dataDir = join(__dir, '..', 'public', 'data')
@@ -14,28 +15,35 @@ const dataDir = join(__dir, '..', 'public', 'data')
 // Plain strings also work: 'Robert' is the same as { name: 'Robert' }.
 // Without an alias, the app shows "{Name}'s XI".
 const PLAYERS = [
-  { name: 'Alice',   alias: '' },
-  { name: 'Bob',     alias: '' },
-  { name: 'Charlie', alias: '' },
-  { name: 'Diana',   alias: '' },
-  { name: 'Ed',      alias: '' },
-  { name: 'Fiona',   alias: '' },
-  { name: 'George',  alias: '' },
-  { name: 'Hannah',  alias: '' },
-  { name: 'Ivan',    alias: '' },
-  { name: 'Julia',   alias: '' },
+  { name: 'Alex',     alias: '' },
+  { name: 'Brett',    alias: '' },
+  { name: 'Surané',   alias: '' },
+  { name: 'Ardeshir', alias: '' },
+  { name: 'Cliff',    alias: '' },
+  { name: 'David',    alias: '' },
+  { name: 'Felipe',   alias: '' },
+  { name: 'Kyle',     alias: '' },
+  { name: 'Rei',      alias: '' },
+  { name: 'Milan',    alias: '' },
+  { name: 'Nathan',   alias: '' },
 ]
 // ────────────────────────────────────────────────────────────────────────────
 
 const teams = JSON.parse(readFileSync(join(dataDir, 'teams.json'), 'utf8'))
 
+// Fisher-Yates shuffle using a cryptographic RNG (unbiased, high-quality).
 function shuffle(arr) {
   const a = [...arr]
   for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = randomInt(i + 1); // crypto-strength, uniform in [0, i]
     [a[i], a[j]] = [a[j], a[i]]
   }
   return a
+}
+
+// id: lowercase, strip accents/diacritics, spaces -> dashes (e.g. Surané -> surane)
+function toId(name) {
+  return name.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, '-')
 }
 
 const roster = PLAYERS.map(p => (typeof p === 'string' ? { name: p } : p))
@@ -51,7 +59,7 @@ if (roster.length > tier1.length) {
 
 const players = roster.map((p, i) => {
   const entry = {
-    id: p.name.toLowerCase().replace(/\s+/g, '-'),
+    id: toId(p.name),
     name: p.name,
     teams: [tier1[i].id, tier2[i].id, tier3[i].id],
   }
