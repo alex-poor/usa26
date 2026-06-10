@@ -43,8 +43,9 @@ export function KaroProvider({ children }) {
       fetchJSON('players.json', []),
       fetchJSON('matches.json', []),
       fetchJSON('scores.json', { lastUpdated: null, players: [], prevTotals: null }),
-    ]).then(([teams, players, matches, scores]) => {
-      setRaw({ teams, players, matches, scores })
+      fetchJSON('blurbs.json', {}),
+    ]).then(([teams, players, matches, scores, blurbs]) => {
+      setRaw({ teams, players, matches, scores, blurbs })
     })
   }, [])
 

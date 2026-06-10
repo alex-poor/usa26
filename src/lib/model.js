@@ -48,51 +48,7 @@ const AVATAR_COLORS = [
   '#E07A3E', '#1B998B', '#6D6875', '#D4548A', '#4A5859',
 ];
 
-// playful placeholder copy — swap for the group's own voice over time
-const TEAM_BLURBS = {
-  ESP: { nick: 'La Roja', blurb: 'Tiki-taka merchants who pass you into a coma, then score.', fact: 'World champions in 2010 — their only title, somehow.' },
-  ARG: { nick: 'La Albiceleste', blurb: 'Drama, flair, and at least one player you’ll argue about.', fact: 'Reigning champions — and they will remind you.' },
-  FRA: { nick: 'Les Bleus', blurb: 'Ludicrous talent, occasional implosion. Box office either way.', fact: 'Two World Cups since 1998.' },
-  ENG: { nick: 'Three Lions', blurb: 'It’s coming home. (It is not coming home.)', fact: 'One trophy, 1966, mentioned approximately hourly.' },
-  BRA: { nick: 'Seleção', blurb: 'Joga bonito until it isn’t. Five stars, endless pressure.', fact: 'Record five World Cup titles.' },
-  POR: { nick: 'Seleção', blurb: 'Golden generation, golden boots, golden-hour selfies.', fact: 'European champions in 2016 against the odds.' },
-  NED: { nick: 'Oranje', blurb: 'Total football, total chaos, totally orange.', fact: 'Three lost finals — the nearly-men of greatness.' },
-  BEL: { nick: 'Red Devils', blurb: 'The golden generation that keeps not-quite winning.', fact: 'Ranked world No.1 for ages without a trophy.' },
-  GER: { nick: 'Die Mannschaft', blurb: 'Used to be a tournament machine. Now? Group-stage gremlins.', fact: 'Four-time winners — currently allergic to the knockouts.' },
-  CRO: { nick: 'Vatreni', blurb: 'A midfield from the heavens, legs from a museum.', fact: 'Reached the 2018 final with a tiny population.' },
-  MAR: { nick: 'Atlas Lions', blurb: 'Organised, fearless, and the story of the last World Cup.', fact: 'First African side to reach a World Cup semi-final (2022).' },
-  COL: { nick: 'Los Cafeteros', blurb: 'Rhythm, ruthlessness, and a corner-flag dance or two.', fact: 'Once scored maybe the best team goal in World Cup history.' },
-  MEX: { nick: 'El Tri', blurb: 'The great escape artists of the group stage.', fact: 'Have reached the knockouts an exhausting number of times.' },
-  SEN: { nick: 'Lions of Teranga', blurb: 'Pace, power, and the loudest fans in the building.', fact: 'Africa’s reigning continental kings on their day.' },
-  URY: { nick: 'La Celeste', blurb: 'Tiny nation, enormous bite. Never, ever a soft draw.', fact: 'Won the very first World Cup in 1930.' },
-  USA: { nick: 'The Stars and Stripes', blurb: 'Young, athletic, and playing the tournament at home.', fact: 'Co-hosts — expectation has never been higher.' },
-  JPN: { nick: 'Samurai Blue', blurb: 'Crisp, disciplined, and giant-killers when it matters.', fact: 'Have knocked out Germany and Spain on the same run.' },
-  SUI: { nick: 'Nati', blurb: 'Punctual, organised, quietly ruins big teams’ tournaments.', fact: 'Masters of the goalless knockout heartbreak.' },
-  AUT: { nick: 'Das Team', blurb: 'Press, press, press, concede, go home.', fact: 'Gegenpressing poster boys who flatter to deceive.' },
-  ECU: { nick: 'La Tri', blurb: 'Altitude specialists who travel surprisingly well.', fact: 'Almost unbeatable in thin Quito air.' },
-  KOR: { nick: 'Taegeuk Warriors', blurb: 'Run until they literally cannot run anymore.', fact: 'Co-hosts and semi-finalists back in 2002.' },
-  IRN: { nick: 'Team Melli', blurb: 'Streetwise, stubborn and a regular qualifier.', fact: 'Asia’s perennial heavyweight.' },
-  NOR: { nick: 'Vikings', blurb: 'Big, blond, and surprisingly fun to watch this time.', fact: 'Fjords, oil money, and unfairly tall strikers.' },
-  SWE: { nick: 'Blågult', blurb: 'Tall, tidy and a total nuisance at set-pieces.', fact: 'Knocked the Netherlands out to even get here, once.' },
-  GHA: { nick: 'Black Stars', blurb: 'Your dark horse with actual giddy-up. The neutral’s favourite.', fact: 'Named after the Black Star of Pan-Africanism.' },
-  CIV: { nick: 'Les Éléphants', blurb: 'Power, flair and African champions on home soil recently.', fact: 'Won the 2023 Cup of Nations from nowhere.' },
-  EGY: { nick: 'The Pharaohs', blurb: 'Record continental kings with one very famous No.10.', fact: 'Seven-time African champions.' },
-  ALG: { nick: 'Desert Foxes', blurb: 'Technical, fiery, and dangerous on their day.', fact: 'African champions in 2019.' },
-  TUN: { nick: 'Eagles of Carthage', blurb: 'Defensively stubborn, occasionally heartbreaking.', fact: 'Regular qualifiers who love a famous scalp.' },
-  AUS: { nick: 'Socceroos', blurb: 'Run forever, tackle harder, refuse to lie down.', fact: 'Travel further than anyone just to qualify.' },
-  CAN: { nick: 'Les Rouges', blurb: 'Quick, fearless co-hosts on the rise.', fact: 'Co-hosting their first home World Cup.' },
-  PAN: { nick: 'Los Canaleros', blurb: 'Tiny nation, enormous heart, dangerous on the break.', fact: 'Their first-ever World Cup goal sparked national delirium.' },
-  PAR: { nick: 'La Albirroja', blurb: 'Gritty, physical and never a pleasant afternoon.', fact: 'Famous for grinding out the ugliest of results.' },
-  SCO: { nick: 'The Tartan Army', blurb: 'The fans alone are worth the entry fee.', fact: 'Bring the best away support in world football.' },
-  QAT: { nick: 'The Maroon', blurb: 'Asian champions hoping to repay a host’s faith.', fact: 'Won the 2019 Asian Cup before hosting in 2022.' },
-  KSA: { nick: 'The Green Falcons', blurb: 'Capable of a result that stops the planet.', fact: 'Beat the eventual champions in the 2022 group stage.' },
-  UZB: { nick: 'White Wolves', blurb: 'The fairytale debutants nobody can spell-check.', fact: 'On a first-ever World Cup run — pure house money.' },
-  RSA: { nick: 'Bafana Bafana', blurb: 'Quick, joyful, and overdue a deep run.', fact: 'Hosted the whole thing back in 2010.' },
-  NZL: { nick: 'All Whites', blurb: 'Honest, organised and never beaten easily.', fact: 'Went unbeaten at a World Cup and still went home (2010).' },
-};
-
 const ADJ = ['plucky', 'fearless', 'unpredictable', 'streetwise', 'underrated', 'spirited'];
-const TIER_SUB = { 1: 'The favourite', 2: 'The mid pick', 3: 'The dark horse' };
 
 function fmtDate(iso) {
   if (!iso) return 'TBC';
@@ -114,7 +70,7 @@ function fmtLongDate(iso) {
  * @param {{meId?:string, alias?:string, todayISO:string}} opts
  */
 export function buildModel(raw, opts) {
-  const { teams: teamDefs = [], players: playerDefs = [], matches: matchDefs = [] } = raw || {};
+  const { teams: teamDefs = [], players: playerDefs = [], matches: matchDefs = [], blurbs = {} } = raw || {};
   const todayISO = opts.todayISO;
 
   // ---- TEAMS base ----------------------------------------------------
@@ -220,14 +176,14 @@ export function buildModel(raw, opts) {
     else if (knockedOut) { e = '🧊'; label = 'Out of the tournament'; }
     t.trend = e; t.trendLabel = label;
 
-    const b = TEAM_BLURBS[t.code];
-    if (b) { t.nick = b.nick; t.blurb = b.blurb; t.fact = b.fact; }
+    const b = blurbs[t.code];
+    t.nick = b?.nick || t.name;
+    if (b?.blurb) t.blurb = b.blurb;
     else {
       const adj = ADJ[(t.rank || 0) % ADJ.length];
-      t.nick = t.name;
       t.blurb = `[Add a blurb for ${t.name}] — a ${adj} side hoping to cause a stir.`;
-      t.fact = `[Fun fact about ${t.name} goes here.]`;
     }
+    t.fact = b?.fact || `[Fun fact about ${t.name} goes here.]`;
   }
 
   // ---- scoring breakdown --------------------------------------------
