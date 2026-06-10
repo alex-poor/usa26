@@ -170,7 +170,7 @@
   {
     "id": "537351",
     "homeTeam": "GER",
-    "awayTeam": "CUR",
+    "awayTeam": "CUW",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-06-14",
@@ -220,7 +220,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "homeYellowCards": 0,
     "awayYellowCards": 0,
     "homeRedCards": 0,
@@ -716,7 +716,7 @@
   {
     "id": "537354",
     "homeTeam": "ECU",
-    "awayTeam": "CUR",
+    "awayTeam": "CUW",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-06-21",
@@ -1156,7 +1156,7 @@
   },
   {
     "id": "537356",
-    "homeTeam": "CUR",
+    "homeTeam": "CUW",
     "awayTeam": "CIV",
     "homeScore": null,
     "awayScore": null,
