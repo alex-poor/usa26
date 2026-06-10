@@ -12,6 +12,7 @@
   {
     "id": "brett",
     "name": "Brett",
+    "alias": "Smithfield FC",
     "teams": [
       "ESP",
       "CAN",
@@ -30,6 +31,7 @@
   {
     "id": "ardeshir",
     "name": "Ardeshir",
+    "alias": "Saffron All Whites",
     "teams": [
       "COL",
       "SUI",
