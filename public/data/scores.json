@@ -1,6 +1,17 @@
 {
-  "lastUpdated": "2026-06-10T11:40:50.783Z",
-  "prevTotals": {},
+  "lastUpdated": "2026-06-10T15:41:32.051Z",
+  "prevTotals": {
+    "alice": 0,
+    "bob": 0,
+    "charlie": 0,
+    "diana": 0,
+    "ed": 0,
+    "fiona": 0,
+    "george": 0,
+    "hannah": 0,
+    "ivan": 0,
+    "julia": 0
+  },
   "players": [
     {
       "id": "alice",
