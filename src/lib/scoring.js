@@ -18,8 +18,8 @@ export const POINTS = {
 }
 
 const STAGE_BONUS = {
-  ROUND_OF_32: POINTS.roundOf32,
-  ROUND_OF_16: POINTS.roundOf16,
+  LAST_32: POINTS.roundOf32,
+  LAST_16: POINTS.roundOf16,
   QUARTER_FINALS: POINTS.quarterFinal,
   SEMI_FINALS: POINTS.semiFinal,
   THIRD_PLACE: POINTS.semiFinal,

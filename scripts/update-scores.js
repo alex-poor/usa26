@@ -94,8 +94,8 @@ function calcTeamMatchPoints(match, teamId) {
 }
 
 const STAGE_BONUS = {
-  ROUND_OF_32: 5,
-  ROUND_OF_16: 10,
+  LAST_32: 5,
+  LAST_16: 10,
   QUARTER_FINALS: 15,
   SEMI_FINALS: 20,
   THIRD_PLACE: 20,

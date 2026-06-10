@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 
 const STAGE_LABELS = {
   GROUP_STAGE: 'Group Stage',
-  ROUND_OF_32: 'Round of 32',
-  ROUND_OF_16: 'Round of 16',
+  LAST_32: 'Round of 32',
+  LAST_16: 'Round of 16',
   QUARTER_FINALS: 'Quarter-Finals',
   SEMI_FINALS: 'Semi-Finals',
   THIRD_PLACE: '3rd Place Play-off',
