@@ -76,7 +76,7 @@ export default function App() {
   })()
   const [view, setView] = useState(initialView)
   const [player, setPlayer] = useState(null)
-  const [draw, setDraw] = useState(false)
+  const [draw, setDraw] = useState(() => new URLSearchParams(window.location.search).get('draw') === '1')
   const mainRef = useRef(null)
 
   useEffect(() => { try { localStorage.setItem('karo.view', view) } catch {} }, [view])

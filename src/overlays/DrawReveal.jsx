@@ -3,6 +3,8 @@ import { useState, useEffect, useRef } from 'react'
 import { useKaro } from '../lib/karo.jsx'
 import { Flag, Confetti } from '../components/shared.jsx'
 
+const BASE = import.meta.env.BASE_URL
+
 const TIER_LABEL = { 1: 'Tier 1', 2: 'Tier 2', 3: 'Tier 3' }
 const TIER_SUB = { 1: 'The favourite', 2: 'The mid pick', 3: 'The dark horse' }
 
@@ -54,6 +56,7 @@ export default function DrawReveal({ onClose }) {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '40px 26px', position: 'relative', width: '100%', maxWidth: 480, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 26 }}>
+          <img src={`${BASE}trump.webp`} alt="" style={{ width: 140, height: 'auto', borderRadius: 16, border: '2.5px solid var(--ink)', boxShadow: 'var(--hard)', margin: '0 auto 18px', display: 'block' }} />
           <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '.24em', color: 'var(--gold)', textTransform: 'uppercase' }}>WC 2026 Sweepstake</div>
           <div className="foil" style={{ fontFamily: 'var(--disp)', fontSize: 52, lineHeight: .9, textTransform: 'uppercase', marginTop: 4, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>The Draw</div>
           <div style={{ fontSize: 13, color: 'rgba(255,255,255,.6)', fontWeight: 600, marginTop: 8 }}>
