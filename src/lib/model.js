@@ -7,7 +7,9 @@
    reconcile with the fixtures.
    ─────────────────────────────────────────────────────────────── */
 
-export const RULES = { win: 5, draw: 2, goal: 3, cs: 4, assist: 1, yellow: -1, red: -3, og: -2 };
+// Only events the data source (football-data.org free tier) actually provides:
+// scores → wins/goals/clean sheets, and stage → progression bonuses.
+export const RULES = { win: 5, draw: 2, goal: 3, cs: 4 };
 
 // Cumulative progression bonus by *furthest stage reached* (matches the
 // backend's per-stage sums: 5, 5+10, +15, +20, +30, +winner).
@@ -95,7 +97,7 @@ export function buildModel(raw, opts) {
     TEAMS[t.id] = {
       code: t.id, name: t.name, tier: t.tier, flag: t.flag, rank: t.rank,
       confederation: t.confederation, group: null, stage: 'group',
-      stats: { w: 0, d: 0, l: 0, gf: 0, ga: 0, cs: 0, ast: 0, yc: 0, rc: 0, og: 0 },
+      stats: { w: 0, d: 0, l: 0, gf: 0, ga: 0, cs: 0 },
       lastMatch: null, trend: '', trendLabel: '',
     };
   }
@@ -148,11 +150,6 @@ export function buildModel(raw, opts) {
     if (m.ga > m.gb) { A.stats.w++; B.stats.l++; }
     else if (m.ga < m.gb) { B.stats.w++; A.stats.l++; }
     else { A.stats.d++; B.stats.d++; }
-    const r = m.raw;
-    A.stats.ast += r.homeAssists ?? 0; B.stats.ast += r.awayAssists ?? 0;
-    A.stats.yc += r.homeYellowCards ?? 0; B.stats.yc += r.awayYellowCards ?? 0;
-    A.stats.rc += r.homeRedCards ?? 0; B.stats.rc += r.awayRedCards ?? 0;
-    A.stats.og += r.homeOwnGoals ?? 0; B.stats.og += r.awayOwnGoals ?? 0;
   }
 
   // winner: the team that won the FINAL
@@ -212,13 +209,9 @@ export function buildModel(raw, opts) {
       { key: 'draw', label: 'Draws', n: s.d, per: RULES.draw, pts: s.d * RULES.draw },
       { key: 'goal', label: 'Goals', n: s.gf, per: RULES.goal, pts: s.gf * RULES.goal },
       { key: 'cs', label: 'Clean sheets', n: s.cs, per: RULES.cs, pts: s.cs * RULES.cs },
-      { key: 'assist', label: 'Assists', n: s.ast, per: RULES.assist, pts: s.ast * RULES.assist },
     ];
     const penalties = [];
-    if (s.yc) penalties.push({ key: 'yellow', label: 'Yellow cards', n: s.yc, per: RULES.yellow, pts: s.yc * RULES.yellow });
-    if (s.rc) penalties.push({ key: 'red', label: 'Red cards', n: s.rc, per: RULES.red, pts: s.rc * RULES.red });
-    if (s.og) penalties.push({ key: 'og', label: 'Own goals', n: s.og, per: RULES.og, pts: s.og * RULES.og });
-    const base = items.reduce((a, x) => a + x.pts, 0) + penalties.reduce((a, x) => a + x.pts, 0);
+    const base = items.reduce((a, x) => a + x.pts, 0);
     return { items, penalties, bonus: si.bonus, bonusLabel: si.label, total: base + si.bonus };
   }
   const teamPoints = (code) => breakdown(code).total;

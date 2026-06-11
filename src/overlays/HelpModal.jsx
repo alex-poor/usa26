@@ -43,7 +43,7 @@ export default function HelpModal({ onClose }) {
               One from each ranking tier — a <b>favourite</b>, a <b>mid pick</b> and a <b>dark horse</b> — assigned at random. No skill, no picking. Hit “Re-live the Draw” to see yours.
             </Step>
             <Step n="2" title="Your teams earn you points">
-              Every match your teams play scores points all tournament long — for wins, goals, clean sheets and going deep in the knockouts. Cards and own goals cost you.
+              Every match your teams play scores points all tournament long — for wins, goals and clean sheets — plus big bonuses for going deep in the knockouts.
             </Step>
             <Step n="3" title="Most points wins">
               Your total is your three teams added together. The leaderboard (“The Table”) ranks all {PLAYERS.length} of you. It updates automatically every couple of hours as results come in.
@@ -54,11 +54,7 @@ export default function HelpModal({ onClose }) {
           <Row label="Team wins a match" value={RULES.win} />
           <Row label="Team draws" value={RULES.draw} />
           <Row label="Goal scored" value={RULES.goal} />
-          <Row label="Clean sheet" value={RULES.cs} />
-          <Row label="Assist" value={RULES.assist} />
-          <Row label="Yellow card" value={RULES.yellow} neg />
-          <Row label="Red card" value={RULES.red} neg />
-          <Row label="Own goal" value={RULES.og} neg />
+          <Row label="Clean sheet (no goals conceded)" value={RULES.cs} />
 
           <div style={{ fontSize: 10.5, fontWeight: 900, letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--ink-3)', margin: '16px 0 4px' }}>Progression bonus (how far a team goes)</div>
           <Row label="Reach the Round of 32" value={S.r32.bonus} />

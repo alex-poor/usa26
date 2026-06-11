@@ -53,15 +53,6 @@ function parseMatch(raw) {
     stage: raw.stage,
     group: raw.group ?? null,
     status: raw.status,
-    // Card/assist data filled in below if available
-    homeYellowCards: 0,
-    awayYellowCards: 0,
-    homeRedCards: 0,
-    awayRedCards: 0,
-    homeAssists: 0,
-    awayAssists: 0,
-    homeOwnGoals: 0,
-    awayOwnGoals: 0,
   }
 }
 
@@ -81,17 +72,8 @@ function calcTeamMatchPoints(match, teamId) {
   if (scored > 0) { breakdown.goals = scored * 3; total += breakdown.goals }
   if (conceded === 0) { breakdown.cleanSheet = 4; total += 4 }
 
-  const assists = isHome ? match.homeAssists : match.awayAssists
-  if (assists > 0) { breakdown.assists = assists; total += assists }
-
-  const yellows = isHome ? match.homeYellowCards : match.awayYellowCards
-  if (yellows > 0) { breakdown.yellowCards = yellows * -1; total += breakdown.yellowCards }
-
-  const reds = isHome ? match.homeRedCards : match.awayRedCards
-  if (reds > 0) { breakdown.redCards = reds * -3; total += breakdown.redCards }
-
-  const ownGoals = isHome ? match.homeOwnGoals : match.awayOwnGoals
-  if (ownGoals > 0) { breakdown.ownGoals = ownGoals * -2; total += breakdown.ownGoals }
+  // Note: assists/cards/own-goals are intentionally not scored — the
+  // football-data.org free tier doesn't expose per-match event detail.
 
   return { total, breakdown }
 }
@@ -141,27 +123,8 @@ async function main() {
 
   const matches = rawMatches.map(parseMatch)
 
-  // Attempt to fetch card data for finished matches (best-effort)
-  // The free tier may not include this — we skip gracefully
-  for (const match of matches.filter(m => m.status === 'FINISHED')) {
-    try {
-      const detail = await apiFetch(`/matches/${match.id}`)
-      const bookings = detail.bookings ?? []
-      for (const b of bookings) {
-        const teamKey = b.team?.tla === match.homeTeam ? 'home' : 'away'
-        if (b.card === 'YELLOW_CARD') match[`${teamKey}YellowCards`]++
-        if (b.card === 'RED_CARD') match[`${teamKey}RedCards`]++
-      }
-      const goals = detail.goals ?? []
-      for (const g of goals) {
-        const teamKey = g.team?.tla === match.homeTeam ? 'home' : 'away'
-        if (g.type === 'OWN') match[`${teamKey}OwnGoals`]++
-        if (g.assist?.name) match[`${teamKey}Assists`]++
-      }
-    } catch {
-      // silently skip if detail fetch fails (rate limit / tier restriction)
-    }
-  }
+  // Scoring uses only data the free tier provides: scores (wins/goals/clean
+  // sheets) and stage (progression). No per-match event detail is fetched.
 
   const players = JSON.parse(readFileSync(join(dataDir, 'players.json'), 'utf8'))
   if (players.length === 0) {
