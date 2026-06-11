@@ -11,15 +11,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537328",
@@ -33,15 +25,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537333",
@@ -55,15 +39,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537345",
@@ -77,15 +53,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537334",
@@ -99,15 +67,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537339",
@@ -121,15 +81,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537340",
@@ -143,15 +95,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537346",
@@ -165,15 +109,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537351",
@@ -187,15 +123,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537357",
@@ -209,15 +137,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537352",
@@ -231,15 +151,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537358",
@@ -253,15 +165,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537369",
@@ -275,15 +179,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537363",
@@ -297,15 +193,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537370",
@@ -319,15 +207,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537364",
@@ -341,15 +221,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537391",
@@ -363,15 +235,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537392",
@@ -385,15 +249,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537397",
@@ -407,15 +263,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537398",
@@ -429,15 +277,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537403",
@@ -451,15 +291,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537409",
@@ -473,15 +305,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537410",
@@ -495,15 +319,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537404",
@@ -517,15 +333,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537329",
@@ -539,15 +347,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537335",
@@ -561,15 +361,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537336",
@@ -583,15 +375,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537330",
@@ -605,15 +389,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537348",
@@ -627,15 +403,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537342",
@@ -649,15 +417,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537341",
@@ -671,15 +431,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537347",
@@ -693,15 +445,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537359",
@@ -715,15 +459,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537353",
@@ -737,15 +473,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537354",
@@ -759,15 +487,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537360",
@@ -781,15 +501,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537371",
@@ -803,15 +515,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537365",
@@ -825,15 +529,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537372",
@@ -847,15 +543,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537366",
@@ -869,15 +557,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537399",
@@ -891,15 +571,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537393",
@@ -913,15 +585,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537394",
@@ -935,15 +599,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537400",
@@ -957,15 +613,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537405",
@@ -979,15 +627,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537411",
@@ -1001,15 +641,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537412",
@@ -1023,15 +655,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537406",
@@ -1045,15 +669,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537337",
@@ -1067,15 +683,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537338",
@@ -1089,15 +697,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537344",
@@ -1111,15 +711,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537343",
@@ -1133,15 +725,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537331",
@@ -1155,15 +739,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537332",
@@ -1177,15 +753,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537355",
@@ -1199,15 +767,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537356",
@@ -1221,15 +781,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537361",
@@ -1243,15 +795,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537362",
@@ -1265,15 +809,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_F",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537349",
@@ -1287,15 +823,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537350",
@@ -1309,15 +837,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537395",
@@ -1331,15 +851,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537396",
@@ -1353,15 +865,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537373",
@@ -1375,15 +879,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537374",
@@ -1397,15 +893,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537367",
@@ -1419,15 +907,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537368",
@@ -1441,15 +921,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537413",
@@ -1463,15 +935,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537414",
@@ -1485,15 +949,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537407",
@@ -1507,15 +963,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537408",
@@ -1529,15 +977,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_K",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537401",
@@ -1551,15 +991,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537402",
@@ -1573,15 +1005,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537417",
@@ -1595,15 +1019,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537423",
@@ -1617,15 +1033,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537415",
@@ -1639,15 +1047,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537418",
@@ -1661,15 +1061,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537424",
@@ -1683,15 +1075,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537416",
@@ -1705,15 +1089,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537425",
@@ -1727,15 +1103,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537426",
@@ -1749,15 +1117,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537422",
@@ -1771,15 +1131,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537421",
@@ -1793,15 +1145,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537420",
@@ -1815,15 +1159,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537419",
@@ -1837,15 +1173,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537429",
@@ -1859,15 +1187,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537428",
@@ -1881,15 +1201,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537427",
@@ -1903,15 +1215,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537430",
@@ -1925,15 +1229,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537376",
@@ -1947,15 +1243,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537375",
@@ -1969,15 +1257,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537377",
@@ -1991,15 +1271,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537378",
@@ -2013,15 +1285,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537379",
@@ -2035,15 +1299,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537380",
@@ -2057,15 +1313,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537381",
@@ -2079,15 +1327,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537382",
@@ -2101,15 +1341,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537383",
@@ -2123,15 +1355,7 @@
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537384",
@@ -2145,15 +1369,7 @@
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537385",
@@ -2167,15 +1383,7 @@
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537386",
@@ -2189,15 +1397,7 @@
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537387",
@@ -2211,15 +1411,7 @@
     "venue": "",
     "stage": "SEMI_FINALS",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537388",
@@ -2233,15 +1425,7 @@
     "venue": "",
     "stage": "SEMI_FINALS",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537389",
@@ -2255,15 +1439,7 @@
     "venue": "",
     "stage": "THIRD_PLACE",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   },
   {
     "id": "537390",
@@ -2277,14 +1453,6 @@
     "venue": "",
     "stage": "FINAL",
     "group": null,
-    "status": "TIMED",
-    "homeYellowCards": 0,
-    "awayYellowCards": 0,
-    "homeRedCards": 0,
-    "awayRedCards": 0,
-    "homeAssists": 0,
-    "awayAssists": 0,
-    "homeOwnGoals": 0,
-    "awayOwnGoals": 0
+    "status": "TIMED"
   }
 ]
