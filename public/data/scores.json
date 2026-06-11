@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T22:07:12.029Z",
+  "lastUpdated": null,
   "prevTotals": {
     "alex": 0,
     "brett": 0,
@@ -36,7 +36,7 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 6,
+      "total": 0,
       "teams": {
         "ESP": {
           "total": 0,
@@ -47,11 +47,8 @@
           "breakdown": {}
         },
         "RSA": {
-          "total": 6,
-          "breakdown": {
-            "draw": 2,
-            "cleanSheet": 4
-          }
+          "total": 0,
+          "breakdown": {}
         }
       }
     },

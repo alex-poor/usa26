@@ -108,15 +108,17 @@ export function buildModel(raw, opts) {
     const stage = STAGE_MAP[m.stage] || 'group';
     const groupLetter = m.group ? m.group.replace('GROUP_', '') : null;
     if (groupLetter) GROUP_SET.add(groupLetter);
-    const played = m.status === 'FINISHED';
+    // Only treat as played with a confirmed score (the feed can mark a match
+    // FINISHED before the score is populated — never show a phantom 0–0).
+    const played = m.status === 'FINISHED' && m.homeScore != null && m.awayScore != null;
     const stageLabel = groupLetter ? `Group ${groupLetter}`
       : (m.stage === 'THIRD_PLACE' ? '3rd Place' : STAGE_INFO[stage].label);
     const nz = nzFrom(matchUtc(m)); // localise the UTC kickoff to NZ time
     return {
       id: String(m.id), stage, stageLabel,
       a: m.homeTeam || null, b: m.awayTeam || null,
-      ga: played ? (m.homeScore ?? 0) : null,
-      gb: played ? (m.awayScore ?? 0) : null,
+      ga: played ? m.homeScore : null,
+      gb: played ? m.awayScore : null,
       played,
       iso: nz.iso, date: nz.date, dayLabel: nz.dayLabel, ts: nz.ts,
       time: m.time ? nz.time : '', venue: m.venue || '',

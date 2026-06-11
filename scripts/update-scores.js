@@ -38,26 +38,39 @@ function normTeam(tla) {
   return TLA_MAP[tla] ?? tla
 }
 
-function parseMatch(raw) {
-  const finished = raw.status === 'FINISHED'
+// A match only counts once it has a confirmed final score. The free tier can
+// flip status to FINISHED *before* populating the score (and briefly drop it
+// back to null), so never trust status alone.
+const isPlayed = (m) => m.status === 'FINISHED' && m.homeScore != null && m.awayScore != null
+
+function parseMatch(raw, prevById = {}) {
+  const id = String(raw.id)
+  const h = raw.score?.fullTime?.home
+  const a = raw.score?.fullTime?.away
+  const hasFinal = raw.status === 'FINISHED' && h != null && a != null
+  // Sticky: a real (non-null) score we've already captured is never overwritten
+  // by null. A new non-null score from the API *does* override (corrects).
+  const prev = prevById[id]
+  const keepPrev = !hasFinal && prev && prev.homeScore != null && prev.awayScore != null
   return {
-    id: String(raw.id),
+    id,
     homeTeam: normTeam(raw.homeTeam.tla),
     awayTeam: normTeam(raw.awayTeam.tla),
-    homeScore: finished ? (raw.score.fullTime.home ?? 0) : null,
-    awayScore: finished ? (raw.score.fullTime.away ?? 0) : null,
+    homeScore: hasFinal ? h : keepPrev ? prev.homeScore : null,
+    awayScore: hasFinal ? a : keepPrev ? prev.awayScore : null,
     date: raw.utcDate.slice(0, 10),
     time: raw.utcDate.slice(11, 16),
     utc: raw.utcDate, // full UTC instant; the app localises this to NZ time
     venue: raw.venue ?? '',
     stage: raw.stage,
     group: raw.group ?? null,
-    status: raw.status,
+    // Once a score is known, stay FINISHED even if a stale snapshot says TIMED.
+    status: (hasFinal || keepPrev) ? 'FINISHED' : raw.status,
   }
 }
 
 function calcTeamMatchPoints(match, teamId) {
-  if (match.status !== 'FINISHED') return { total: 0, breakdown: {} }
+  if (!isPlayed(match)) return { total: 0, breakdown: {} }
   const isHome = match.homeTeam === teamId
   const isAway = match.awayTeam === teamId
   if (!isHome && !isAway) return { total: 0, breakdown: {} }
@@ -90,13 +103,13 @@ const STAGE_BONUS = {
 function calcProgressionBonus(matches, teamId) {
   const stagesReached = new Set()
   for (const m of matches) {
-    if (m.status !== 'FINISHED') continue
+    if (!isPlayed(m)) continue
     if (m.homeTeam !== teamId && m.awayTeam !== teamId) continue
     if (STAGE_BONUS[m.stage]) stagesReached.add(m.stage)
   }
 
   // If a team played in the final and won, add winner bonus
-  const finalMatch = matches.find(m => m.stage === 'FINAL' && m.status === 'FINISHED')
+  const finalMatch = matches.find(m => m.stage === 'FINAL' && isPlayed(m))
   if (finalMatch) {
     const isHome = finalMatch.homeTeam === teamId
     const isAway = finalMatch.awayTeam === teamId
@@ -121,7 +134,15 @@ async function main() {
   console.log('Fetching matches from football-data.org...')
   const { matches: rawMatches } = await apiFetch(`/competitions/${COMPETITION}/matches`)
 
-  const matches = rawMatches.map(parseMatch)
+  // Previous snapshot — used to keep confirmed final scores sticky against the
+  // free tier flapping a finished match's score back to null.
+  let prevById = {}
+  try {
+    const prev = JSON.parse(readFileSync(join(dataDir, 'matches.json'), 'utf8'))
+    prevById = Object.fromEntries(prev.map(m => [String(m.id), m]))
+  } catch {}
+
+  const matches = rawMatches.map(r => parseMatch(r, prevById))
 
   // Scoring uses only data the free tier provides: scores (wins/goals/clean
   // sheets) and stage (progression). No per-match event detail is fetched.
