@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T23:25:12.226Z",
+  "lastUpdated": "2026-06-12T04:14:41.894Z",
   "prevTotals": {
     "alex": 0,
     "brett": 0,
@@ -112,15 +112,17 @@
     {
       "id": "david",
       "name": "David",
-      "total": 0,
+      "total": 3,
       "teams": {
         "CRO": {
           "total": 0,
           "breakdown": {}
         },
         "CZE": {
-          "total": 0,
-          "breakdown": {}
+          "total": 3,
+          "breakdown": {
+            "goals": 3
+          }
         },
         "JOR": {
           "total": 0,
@@ -150,15 +152,18 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 0,
+      "total": 11,
       "teams": {
         "FRA": {
           "total": 0,
           "breakdown": {}
         },
         "KOR": {
-          "total": 0,
-          "breakdown": {}
+          "total": 11,
+          "breakdown": {
+            "win": 5,
+            "goals": 6
+          }
         },
         "UZB": {
           "total": 0,
