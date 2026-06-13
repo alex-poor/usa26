@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T23:20:18.762Z",
+  "lastUpdated": "2026-06-13T04:02:30.341Z",
   "prevTotals": {
     "alex": 0,
     "brett": 5,
@@ -139,7 +139,7 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 0,
+      "total": 3,
       "teams": {
         "BEL": {
           "total": 0,
@@ -150,8 +150,10 @@
           "breakdown": {}
         },
         "PAR": {
-          "total": 0,
-          "breakdown": {}
+          "total": 3,
+          "breakdown": {
+            "goals": 3
+          }
         }
       }
     },
