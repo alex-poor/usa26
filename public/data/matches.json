@@ -115,15 +115,15 @@
     "id": "537351",
     "homeTeam": "GER",
     "awayTeam": "CUW",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 7,
+    "awayScore": 1,
     "date": "2026-06-14",
     "time": "17:00",
     "utc": "2026-06-14T17:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_E",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537357",
