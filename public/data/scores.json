@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T04:20:51.553Z",
+  "lastUpdated": "2026-06-14T09:38:57.527Z",
   "prevTotals": {
     "alex": 0,
     "brett": 5,
@@ -9,7 +9,7 @@
     "david": 3,
     "felipe": 3,
     "kyle": 11,
-    "rei": 0,
+    "rei": 5,
     "milan": 0,
     "nathan": 0
   },
@@ -185,7 +185,7 @@
     {
       "id": "rei",
       "name": "Rei",
-      "total": 5,
+      "total": 20,
       "teams": {
         "BRA": {
           "total": 5,
@@ -195,8 +195,12 @@
           }
         },
         "AUS": {
-          "total": 0,
-          "breakdown": {}
+          "total": 15,
+          "breakdown": {
+            "win": 5,
+            "goals": 6,
+            "cleanSheet": 4
+          }
         },
         "HAI": {
           "total": 0,

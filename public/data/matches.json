@@ -101,15 +101,15 @@
     "id": "537346",
     "homeTeam": "AUS",
     "awayTeam": "TUR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "date": "2026-06-14",
     "time": "04:00",
     "utc": "2026-06-14T04:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_D",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537351",
