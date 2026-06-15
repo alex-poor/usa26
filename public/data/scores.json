@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T23:11:24.507Z",
+  "lastUpdated": "2026-06-15T04:43:54.350Z",
   "prevTotals": {
     "alex": 0,
     "brett": 5,
@@ -11,7 +11,7 @@
     "kyle": 11,
     "rei": 20,
     "milan": 3,
-    "nathan": 0
+    "nathan": 8
   },
   "players": [
     {
@@ -58,15 +58,19 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 0,
+      "total": 12,
       "teams": {
         "ARG": {
           "total": 0,
           "breakdown": {}
         },
         "CIV": {
-          "total": 0,
-          "breakdown": {}
+          "total": 12,
+          "breakdown": {
+            "win": 5,
+            "goals": 3,
+            "cleanSheet": 4
+          }
         },
         "NZL": {
           "total": 0,
@@ -214,15 +218,18 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 3,
+      "total": 23,
       "teams": {
         "ENG": {
           "total": 0,
           "breakdown": {}
         },
         "SWE": {
-          "total": 0,
-          "breakdown": {}
+          "total": 20,
+          "breakdown": {
+            "win": 5,
+            "goals": 15
+          }
         },
         "CUW": {
           "total": 3,
