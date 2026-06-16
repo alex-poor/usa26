@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:21:36.818Z",
+  "lastUpdated": "2026-06-16T04:27:31.661Z",
   "prevTotals": {
     "alex": 0,
     "brett": 11,
@@ -7,7 +7,7 @@
     "ardeshir": 10,
     "cliff": 26,
     "david": 3,
-    "felipe": 3,
+    "felipe": 8,
     "kyle": 11,
     "rei": 20,
     "milan": 23,
@@ -61,7 +61,7 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 12,
+      "total": 20,
       "teams": {
         "ARG": {
           "total": 0,
@@ -76,8 +76,11 @@
           }
         },
         "NZL": {
-          "total": 0,
-          "breakdown": {}
+          "total": 8,
+          "breakdown": {
+            "draw": 2,
+            "goals": 6
+          }
         }
       }
     },
@@ -109,7 +112,7 @@
     {
       "id": "cliff",
       "name": "Cliff",
-      "total": 26,
+      "total": 34,
       "teams": {
         "GER": {
           "total": 26,
@@ -119,8 +122,11 @@
           }
         },
         "IRN": {
-          "total": 0,
-          "breakdown": {}
+          "total": 8,
+          "breakdown": {
+            "draw": 2,
+            "goals": 6
+          }
         },
         "IRQ": {
           "total": 0,
@@ -248,7 +254,7 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 8,
+      "total": 13,
       "teams": {
         "URY": {
           "total": 0,
@@ -262,8 +268,11 @@
           }
         },
         "KSA": {
-          "total": 0,
-          "breakdown": {}
+          "total": 5,
+          "breakdown": {
+            "draw": 2,
+            "goals": 3
+          }
         }
       }
     }
