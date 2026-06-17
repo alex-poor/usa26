@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T23:25:34.777Z",
+  "lastUpdated": "2026-06-17T04:21:56.639Z",
   "prevTotals": {
     "alex": 0,
     "brett": 11,
@@ -8,7 +8,7 @@
     "cliff": 34,
     "david": 3,
     "felipe": 8,
-    "kyle": 11,
+    "kyle": 25,
     "rei": 20,
     "milan": 23,
     "nathan": 18
@@ -61,11 +61,15 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 20,
+      "total": 38,
       "teams": {
         "ARG": {
-          "total": 0,
-          "breakdown": {}
+          "total": 18,
+          "breakdown": {
+            "win": 5,
+            "goals": 9,
+            "cleanSheet": 4
+          }
         },
         "CIV": {
           "total": 12,
@@ -112,7 +116,7 @@
     {
       "id": "cliff",
       "name": "Cliff",
-      "total": 34,
+      "total": 37,
       "teams": {
         "GER": {
           "total": 26,
@@ -129,8 +133,10 @@
           }
         },
         "IRQ": {
-          "total": 0,
-          "breakdown": {}
+          "total": 3,
+          "breakdown": {
+            "goals": 3
+          }
         }
       }
     },
