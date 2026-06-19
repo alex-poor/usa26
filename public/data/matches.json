@@ -198,7 +198,7 @@
   {
     "id": "537370",
     "homeTeam": "KSA",
-    "awayTeam": "URY",
+    "awayTeam": "URU",
     "homeScore": 1,
     "awayScore": 1,
     "date": "2026-06-15",
@@ -367,29 +367,29 @@
     "id": "537336",
     "homeTeam": "CAN",
     "awayTeam": "QAT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 6,
+    "awayScore": 0,
     "date": "2026-06-18",
     "time": "22:00",
     "utc": "2026-06-18T22:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537330",
     "homeTeam": "MEX",
     "awayTeam": "KOR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "date": "2026-06-19",
     "time": "01:00",
     "utc": "2026-06-19T01:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_A",
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537348",
@@ -533,7 +533,7 @@
   },
   {
     "id": "537372",
-    "homeTeam": "URY",
+    "homeTeam": "URU",
     "awayTeam": "CPV",
     "homeScore": null,
     "awayScore": null,
@@ -869,7 +869,7 @@
   },
   {
     "id": "537373",
-    "homeTeam": "URY",
+    "homeTeam": "URU",
     "awayTeam": "ESP",
     "homeScore": null,
     "awayScore": null,

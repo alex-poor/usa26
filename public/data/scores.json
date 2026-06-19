@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-18T22:12:36.183Z",
+  "lastUpdated": "2026-06-19T04:42:47.025Z",
   "prevTotals": {
     "alex": 10,
     "brett": 16,
     "surane": 38,
-    "ardeshir": 24,
+    "ardeshir": 44,
     "cliff": 37,
     "david": 17,
     "felipe": 8,
     "kyle": 28,
     "rei": 20,
     "milan": 40,
-    "nathan": 13
+    "nathan": 18
   },
   "players": [
     {
@@ -42,7 +42,7 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 16,
+      "total": 43,
       "teams": {
         "ESP": {
           "total": 6,
@@ -52,10 +52,12 @@
           }
         },
         "CAN": {
-          "total": 5,
+          "total": 32,
           "breakdown": {
             "draw": 2,
-            "goals": 3
+            "goals": 21,
+            "win": 5,
+            "cleanSheet": 4
           }
         },
         "RSA": {
@@ -286,14 +288,11 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 18,
+      "total": 13,
       "teams": {
         "URY": {
-          "total": 5,
-          "breakdown": {
-            "draw": 2,
-            "goals": 3
-          }
+          "total": 0,
+          "breakdown": {}
         },
         "JPN": {
           "total": 8,
