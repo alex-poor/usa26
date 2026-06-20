@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T03:56:57.056Z",
+  "lastUpdated": "2026-06-20T07:55:04.147Z",
   "prevTotals": {
     "alex": 10,
     "brett": 43,
@@ -9,9 +9,9 @@
     "david": 17,
     "felipe": 8,
     "kyle": 28,
-    "rei": 20,
+    "rei": 38,
     "milan": 40,
-    "nathan": 18
+    "nathan": 13
   },
   "players": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 8,
+      "total": 20,
       "teams": {
         "BEL": {
           "total": 5,
@@ -198,9 +198,11 @@
           "breakdown": {}
         },
         "PAR": {
-          "total": 3,
+          "total": 15,
           "breakdown": {
-            "goals": 3
+            "goals": 6,
+            "win": 5,
+            "cleanSheet": 4
           }
         }
       }
@@ -290,11 +292,14 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 13,
+      "total": 18,
       "teams": {
         "URY": {
-          "total": 0,
-          "breakdown": {}
+          "total": 5,
+          "breakdown": {
+            "draw": 2,
+            "goals": 3
+          }
         },
         "JPN": {
           "total": 8,
