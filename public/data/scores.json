@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-20T23:11:17.007Z",
+  "lastUpdated": "2026-06-21T04:27:18.625Z",
   "prevTotals": {
     "alex": 10,
     "brett": 43,
-    "surane": 38,
+    "surane": 41,
     "ardeshir": 44,
-    "cliff": 37,
+    "cliff": 48,
     "david": 17,
     "felipe": 20,
     "kyle": 28,
     "rei": 38,
     "milan": 43,
-    "nathan": 18
+    "nathan": 13
   },
   "players": [
     {
@@ -184,7 +184,7 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 20,
+      "total": 26,
       "teams": {
         "BEL": {
           "total": 5,
@@ -194,8 +194,11 @@
           }
         },
         "ECU": {
-          "total": 0,
-          "breakdown": {}
+          "total": 6,
+          "breakdown": {
+            "draw": 2,
+            "cleanSheet": 4
+          }
         },
         "PAR": {
           "total": 15,
@@ -265,7 +268,7 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 43,
+      "total": 49,
       "teams": {
         "ENG": {
           "total": 17,
@@ -282,9 +285,11 @@
           }
         },
         "CUW": {
-          "total": 3,
+          "total": 9,
           "breakdown": {
-            "goals": 3
+            "goals": 3,
+            "draw": 2,
+            "cleanSheet": 4
           }
         }
       }
