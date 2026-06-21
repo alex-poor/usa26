@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T17:41:47.626Z",
+  "lastUpdated": "2026-06-21T19:46:40.842Z",
   "prevTotals": {
     "alex": 10,
     "brett": 43,
@@ -11,7 +11,7 @@
     "kyle": 28,
     "rei": 38,
     "milan": 49,
-    "nathan": 34
+    "nathan": 39
   },
   "players": [
     {
@@ -42,13 +42,15 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 43,
+      "total": 67,
       "teams": {
         "ESP": {
-          "total": 6,
+          "total": 30,
           "breakdown": {
             "draw": 2,
-            "cleanSheet": 4
+            "cleanSheet": 8,
+            "win": 5,
+            "goals": 15
           }
         },
         "CAN": {
