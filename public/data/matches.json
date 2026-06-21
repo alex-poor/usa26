@@ -507,7 +507,7 @@
     "id": "537371",
     "homeTeam": "ESP",
     "awayTeam": "KSA",
-    "homeScore": 5,
+    "homeScore": 4,
     "awayScore": 0,
     "date": "2026-06-21",
     "time": "16:00",
@@ -521,15 +521,15 @@
     "id": "537365",
     "homeTeam": "BEL",
     "awayTeam": "IRN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "date": "2026-06-21",
     "time": "19:00",
     "utc": "2026-06-21T19:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537372",

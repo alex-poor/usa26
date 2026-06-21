@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-21T19:46:40.842Z",
+  "lastUpdated": "2026-06-21T21:17:04.692Z",
   "prevTotals": {
     "alex": 10,
-    "brett": 43,
+    "brett": 67,
     "surane": 41,
     "ardeshir": 44,
     "cliff": 48,
@@ -42,15 +42,15 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 67,
+      "total": 64,
       "teams": {
         "ESP": {
-          "total": 30,
+          "total": 27,
           "breakdown": {
             "draw": 2,
             "cleanSheet": 8,
             "win": 5,
-            "goals": 15
+            "goals": 12
           }
         },
         "CAN": {
@@ -133,7 +133,7 @@
     {
       "id": "cliff",
       "name": "Cliff",
-      "total": 48,
+      "total": 54,
       "teams": {
         "GER": {
           "total": 37,
@@ -143,10 +143,11 @@
           }
         },
         "IRN": {
-          "total": 8,
+          "total": 14,
           "breakdown": {
-            "draw": 2,
-            "goals": 6
+            "draw": 4,
+            "goals": 6,
+            "cleanSheet": 4
           }
         },
         "IRQ": {
@@ -186,13 +187,14 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 26,
+      "total": 32,
       "teams": {
         "BEL": {
-          "total": 5,
+          "total": 11,
           "breakdown": {
-            "draw": 2,
-            "goals": 3
+            "draw": 4,
+            "goals": 3,
+            "cleanSheet": 4
           }
         },
         "ECU": {
