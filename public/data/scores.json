@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T04:27:18.625Z",
+  "lastUpdated": "2026-06-21T09:53:49.502Z",
   "prevTotals": {
     "alex": 10,
     "brett": 43,
@@ -7,10 +7,10 @@
     "ardeshir": 44,
     "cliff": 48,
     "david": 17,
-    "felipe": 20,
+    "felipe": 26,
     "kyle": 28,
     "rei": 38,
-    "milan": 43,
+    "milan": 49,
     "nathan": 13
   },
   "players": [
@@ -297,17 +297,19 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 13,
+      "total": 34,
       "teams": {
         "URY": {
           "total": 0,
           "breakdown": {}
         },
         "JPN": {
-          "total": 8,
+          "total": 29,
           "breakdown": {
             "draw": 2,
-            "goals": 6
+            "goals": 18,
+            "win": 5,
+            "cleanSheet": 4
           }
         },
         "KSA": {
