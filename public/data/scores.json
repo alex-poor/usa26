@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:17:01.148Z",
+  "lastUpdated": "2026-06-22T04:43:35.536Z",
   "prevTotals": {
     "alex": 10,
     "brett": 64,
@@ -74,7 +74,7 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 41,
+      "total": 44,
       "teams": {
         "ARG": {
           "total": 18,
@@ -93,10 +93,10 @@
           }
         },
         "NZL": {
-          "total": 8,
+          "total": 11,
           "breakdown": {
             "draw": 2,
-            "goals": 6
+            "goals": 9
           }
         }
       }
@@ -301,13 +301,13 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 39,
+      "total": 47,
       "teams": {
         "URY": {
-          "total": 5,
+          "total": 13,
           "breakdown": {
-            "draw": 2,
-            "goals": 3
+            "draw": 4,
+            "goals": 9
           }
         },
         "JPN": {

@@ -535,29 +535,29 @@
     "id": "537372",
     "homeTeam": "URY",
     "awayTeam": "CPV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "date": "2026-06-21",
     "time": "22:00",
     "utc": "2026-06-21T22:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_H",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537366",
     "homeTeam": "NZL",
     "awayTeam": "EGY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 3,
     "date": "2026-06-22",
     "time": "01:00",
     "utc": "2026-06-22T01:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537399",
