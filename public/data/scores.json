@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:13:29.959Z",
+  "lastUpdated": "2026-06-22T22:04:58.673Z",
   "prevTotals": {
     "alex": 10,
     "brett": 64,
@@ -74,14 +74,14 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 44,
+      "total": 59,
       "teams": {
         "ARG": {
-          "total": 18,
+          "total": 33,
           "breakdown": {
-            "win": 5,
-            "goals": 9,
-            "cleanSheet": 4
+            "win": 10,
+            "goals": 15,
+            "cleanSheet": 8
           }
         },
         "CIV": {
@@ -301,11 +301,14 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 34,
+      "total": 47,
       "teams": {
         "URY": {
-          "total": 0,
-          "breakdown": {}
+          "total": 13,
+          "breakdown": {
+            "draw": 4,
+            "goals": 9
+          }
         },
         "JPN": {
           "total": 29,
