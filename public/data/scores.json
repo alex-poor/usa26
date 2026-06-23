@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T17:59:18.813Z",
+  "lastUpdated": "2026-06-23T20:18:43.031Z",
   "prevTotals": {
     "alex": 21,
     "brett": 64,
@@ -11,19 +11,21 @@
     "kyle": 46,
     "rei": 38,
     "milan": 49,
-    "nathan": 47
+    "nathan": 34
   },
   "players": [
     {
       "id": "alex",
       "name": "Alex",
-      "total": 21,
+      "total": 45,
       "teams": {
         "POR": {
-          "total": 5,
+          "total": 29,
           "breakdown": {
             "draw": 2,
-            "goals": 3
+            "goals": 18,
+            "win": 5,
+            "cleanSheet": 4
           }
         },
         "ALG": {
@@ -305,11 +307,14 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 34,
+      "total": 47,
       "teams": {
         "URY": {
-          "total": 0,
-          "breakdown": {}
+          "total": 13,
+          "breakdown": {
+            "draw": 4,
+            "goals": 9
+          }
         },
         "JPN": {
           "total": 29,
