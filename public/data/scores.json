@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-23T20:18:43.031Z",
+  "lastUpdated": "2026-06-23T23:10:15.524Z",
   "prevTotals": {
-    "alex": 21,
+    "alex": 45,
     "brett": 64,
     "surane": 59,
     "ardeshir": 44,
@@ -11,7 +11,7 @@
     "kyle": 46,
     "rei": 38,
     "milan": 49,
-    "nathan": 34
+    "nathan": 47
   },
   "players": [
     {
@@ -278,13 +278,15 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 49,
+      "total": 55,
       "teams": {
         "ENG": {
-          "total": 17,
+          "total": 23,
           "breakdown": {
             "win": 5,
-            "goals": 12
+            "goals": 12,
+            "draw": 2,
+            "cleanSheet": 4
           }
         },
         "SWE": {
@@ -307,14 +309,11 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 47,
+      "total": 34,
       "teams": {
         "URY": {
-          "total": 13,
-          "breakdown": {
-            "draw": 4,
-            "goals": 9
-          }
+          "total": 0,
+          "breakdown": {}
         },
         "JPN": {
           "total": 29,
