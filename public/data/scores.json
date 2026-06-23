@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T03:49:32.116Z",
+  "lastUpdated": "2026-06-23T07:52:20.068Z",
   "prevTotals": {
     "alex": 10,
     "brett": 64,
@@ -8,16 +8,16 @@
     "cliff": 54,
     "david": 17,
     "felipe": 32,
-    "kyle": 28,
+    "kyle": 46,
     "rei": 38,
-    "milan": 49,
+    "milan": 40,
     "nathan": 47
   },
   "players": [
     {
       "id": "alex",
       "name": "Alex",
-      "total": 10,
+      "total": 21,
       "teams": {
         "POR": {
           "total": 5,
@@ -27,8 +27,11 @@
           }
         },
         "ALG": {
-          "total": 0,
-          "breakdown": {}
+          "total": 11,
+          "breakdown": {
+            "win": 5,
+            "goals": 6
+          }
         },
         "COD": {
           "total": 5,
@@ -161,7 +164,7 @@
     {
       "id": "david",
       "name": "David",
-      "total": 17,
+      "total": 20,
       "teams": {
         "CRO": {
           "total": 6,
@@ -177,9 +180,9 @@
           }
         },
         "JOR": {
-          "total": 3,
+          "total": 6,
           "breakdown": {
-            "goals": 3
+            "goals": 6
           }
         }
       }
@@ -273,7 +276,7 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 40,
+      "total": 49,
       "teams": {
         "ENG": {
           "total": 17,
@@ -290,22 +293,23 @@
           }
         },
         "CUW": {
-          "total": 0,
-          "breakdown": {}
+          "total": 9,
+          "breakdown": {
+            "goals": 3,
+            "draw": 2,
+            "cleanSheet": 4
+          }
         }
       }
     },
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 47,
+      "total": 34,
       "teams": {
         "URY": {
-          "total": 13,
-          "breakdown": {
-            "draw": 4,
-            "goals": 9
-          }
+          "total": 0,
+          "breakdown": {}
         },
         "JPN": {
           "total": 29,
