@@ -1037,7 +1037,7 @@
   },
   {
     "id": "537415",
-    "homeTeam": "GER",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "537425",
-    "homeTeam": "MEX",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "537421",
-    "homeTeam": "USA",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
