@@ -114,7 +114,7 @@
   {
     "id": "537351",
     "homeTeam": "GER",
-    "awayTeam": "CUW",
+    "awayTeam": "CUR",
     "homeScore": 7,
     "awayScore": 1,
     "date": "2026-06-14",
@@ -478,7 +478,7 @@
   {
     "id": "537354",
     "homeTeam": "ECU",
-    "awayTeam": "CUW",
+    "awayTeam": "CUR",
     "homeScore": 0,
     "awayScore": 0,
     "date": "2026-06-21",
@@ -577,29 +577,29 @@
     "id": "537393",
     "homeTeam": "FRA",
     "awayTeam": "IRQ",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "date": "2026-06-22",
     "time": "21:00",
     "utc": "2026-06-22T21:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537394",
     "homeTeam": "NOR",
     "awayTeam": "SEN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "date": "2026-06-23",
     "time": "00:00",
     "utc": "2026-06-23T00:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_I",
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537400",
@@ -613,7 +613,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_J",
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537405",
@@ -771,7 +771,7 @@
   },
   {
     "id": "537356",
-    "homeTeam": "CUW",
+    "homeTeam": "CUR",
     "awayTeam": "CIV",
     "homeScore": null,
     "awayScore": null,
