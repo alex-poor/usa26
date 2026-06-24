@@ -711,7 +711,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED"
+    "status": "PAUSED"
   },
   {
     "id": "537343",
@@ -725,7 +725,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_C",
-    "status": "TIMED"
+    "status": "PAUSED"
   },
   {
     "id": "537331",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": "537415",
-    "homeTeam": "GER",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "537425",
-    "homeTeam": "MEX",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "537421",
-    "homeTeam": "USA",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1205,7 +1205,7 @@
   },
   {
     "id": "537427",
-    "homeTeam": "ARG",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
