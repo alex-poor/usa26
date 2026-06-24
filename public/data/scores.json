@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T23:10:15.524Z",
+  "lastUpdated": "2026-06-24T03:50:54.382Z",
   "prevTotals": {
     "alex": 45,
     "brett": 64,
@@ -10,8 +10,8 @@
     "felipe": 32,
     "kyle": 46,
     "rei": 38,
-    "milan": 49,
-    "nathan": 47
+    "milan": 55,
+    "nathan": 34
   },
   "players": [
     {
@@ -166,12 +166,14 @@
     {
       "id": "david",
       "name": "David",
-      "total": 20,
+      "total": 32,
       "teams": {
         "CRO": {
-          "total": 6,
+          "total": 18,
           "breakdown": {
-            "goals": 6
+            "goals": 9,
+            "win": 5,
+            "cleanSheet": 4
           }
         },
         "CZE": {
@@ -309,11 +311,14 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 34,
+      "total": 47,
       "teams": {
         "URY": {
-          "total": 0,
-          "breakdown": {}
+          "total": 13,
+          "breakdown": {
+            "draw": 4,
+            "goals": 9
+          }
         },
         "JPN": {
           "total": 29,
