@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-24T03:50:54.382Z",
+  "lastUpdated": "2026-06-24T07:43:10.844Z",
   "prevTotals": {
     "alex": 45,
     "brett": 64,
     "surane": 59,
     "ardeshir": 44,
     "cliff": 54,
-    "david": 20,
+    "david": 32,
     "felipe": 32,
     "kyle": 46,
     "rei": 38,
     "milan": 55,
-    "nathan": 34
+    "nathan": 47
   },
   "players": [
     {
@@ -109,13 +109,14 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 44,
+      "total": 56,
       "teams": {
         "COL": {
-          "total": 14,
+          "total": 26,
           "breakdown": {
-            "win": 5,
-            "goals": 9
+            "win": 10,
+            "goals": 12,
+            "cleanSheet": 4
           }
         },
         "SUI": {
@@ -311,14 +312,11 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 47,
+      "total": 34,
       "teams": {
         "URY": {
-          "total": 13,
-          "breakdown": {
-            "draw": 4,
-            "goals": 9
-          }
+          "total": 0,
+          "breakdown": {}
         },
         "JPN": {
           "total": 29,
