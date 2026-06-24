@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T19:57:26.988Z",
+  "lastUpdated": "2026-06-24T21:38:11.809Z",
   "prevTotals": {
     "alex": 45,
     "brett": 64,
@@ -11,7 +11,7 @@
     "kyle": 46,
     "rei": 38,
     "milan": 55,
-    "nathan": 47
+    "nathan": 34
   },
   "players": [
     {
@@ -47,7 +47,7 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 64,
+      "total": 67,
       "teams": {
         "ESP": {
           "total": 27,
@@ -59,10 +59,10 @@
           }
         },
         "CAN": {
-          "total": 32,
+          "total": 35,
           "breakdown": {
             "draw": 2,
-            "goals": 21,
+            "goals": 24,
             "win": 5,
             "cleanSheet": 4
           }
@@ -109,7 +109,7 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 56,
+      "total": 81,
       "teams": {
         "COL": {
           "total": 26,
@@ -120,18 +120,19 @@
           }
         },
         "SUI": {
+          "total": 33,
+          "breakdown": {
+            "draw": 2,
+            "goals": 21,
+            "win": 10
+          }
+        },
+        "BIH": {
           "total": 22,
           "breakdown": {
             "draw": 2,
             "goals": 15,
             "win": 5
-          }
-        },
-        "BIH": {
-          "total": 8,
-          "breakdown": {
-            "draw": 2,
-            "goals": 6
           }
         }
       }

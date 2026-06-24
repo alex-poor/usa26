@@ -675,29 +675,29 @@
     "id": "537337",
     "homeTeam": "SUI",
     "awayTeam": "CAN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "date": "2026-06-24",
     "time": "19:00",
     "utc": "2026-06-24T19:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537338",
     "homeTeam": "BIH",
     "awayTeam": "QAT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "date": "2026-06-24",
     "time": "19:00",
     "utc": "2026-06-24T19:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_B",
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537344",
