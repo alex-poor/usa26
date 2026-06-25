@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T23:06:18.970Z",
+  "lastUpdated": "2026-06-25T03:51:28.989Z",
   "prevTotals": {
     "alex": 45,
     "brett": 67,
@@ -47,7 +47,7 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 67,
+      "total": 79,
       "teams": {
         "ESP": {
           "total": 27,
@@ -68,10 +68,12 @@
           }
         },
         "RSA": {
-          "total": 5,
+          "total": 17,
           "breakdown": {
             "draw": 2,
-            "goals": 3
+            "goals": 6,
+            "win": 5,
+            "cleanSheet": 4
           }
         }
       }
@@ -254,15 +256,15 @@
     {
       "id": "rei",
       "name": "Rei",
-      "total": 38,
+      "total": 62,
       "teams": {
         "BRA": {
-          "total": 23,
+          "total": 41,
           "breakdown": {
             "draw": 2,
-            "goals": 12,
-            "win": 5,
-            "cleanSheet": 4
+            "goals": 21,
+            "win": 10,
+            "cleanSheet": 8
           }
         },
         "AUS": {
@@ -274,8 +276,10 @@
           }
         },
         "HAI": {
-          "total": 0,
-          "breakdown": {}
+          "total": 6,
+          "breakdown": {
+            "goals": 6
+          }
         }
       }
     },
