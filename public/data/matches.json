@@ -114,7 +114,7 @@
   {
     "id": "537351",
     "homeTeam": "GER",
-    "awayTeam": "CUR",
+    "awayTeam": "CUW",
     "homeScore": 7,
     "awayScore": 1,
     "date": "2026-06-14",
@@ -198,7 +198,7 @@
   {
     "id": "537370",
     "homeTeam": "KSA",
-    "awayTeam": "URY",
+    "awayTeam": "URU",
     "homeScore": 1,
     "awayScore": 1,
     "date": "2026-06-15",
@@ -478,7 +478,7 @@
   {
     "id": "537354",
     "homeTeam": "ECU",
-    "awayTeam": "CUR",
+    "awayTeam": "CUW",
     "homeScore": 0,
     "awayScore": 0,
     "date": "2026-06-21",
@@ -533,7 +533,7 @@
   },
   {
     "id": "537372",
-    "homeTeam": "URY",
+    "homeTeam": "URU",
     "awayTeam": "CPV",
     "homeScore": 2,
     "awayScore": 2,
@@ -771,7 +771,7 @@
   },
   {
     "id": "537356",
-    "homeTeam": "CUR",
+    "homeTeam": "CUW",
     "awayTeam": "CIV",
     "homeScore": null,
     "awayScore": null,
@@ -869,7 +869,7 @@
   },
   {
     "id": "537373",
-    "homeTeam": "URY",
+    "homeTeam": "URU",
     "awayTeam": "ESP",
     "homeScore": null,
     "awayScore": null,
