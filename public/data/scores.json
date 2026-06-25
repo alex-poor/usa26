@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T07:48:06.089Z",
+  "lastUpdated": "2026-06-25T10:45:11.851Z",
   "prevTotals": {
     "alex": 45,
     "brett": 79,
@@ -286,7 +286,7 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 55,
+      "total": 46,
       "teams": {
         "ENG": {
           "total": 23,
@@ -305,23 +305,22 @@
           }
         },
         "CUW": {
-          "total": 9,
-          "breakdown": {
-            "goals": 3,
-            "draw": 2,
-            "cleanSheet": 4
-          }
+          "total": 0,
+          "breakdown": {}
         }
       }
     },
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 34,
+      "total": 47,
       "teams": {
         "URY": {
-          "total": 0,
-          "breakdown": {}
+          "total": 13,
+          "breakdown": {
+            "draw": 4,
+            "goals": 9
+          }
         },
         "JPN": {
           "total": 29,
