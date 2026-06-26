@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T19:52:14.266Z",
+  "lastUpdated": "2026-06-26T21:20:54.281Z",
   "prevTotals": {
     "alex": 45,
     "brett": 79,
@@ -231,13 +231,13 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 46,
+      "total": 63,
       "teams": {
         "FRA": {
-          "total": 32,
+          "total": 49,
           "breakdown": {
-            "win": 10,
-            "goals": 18,
+            "win": 15,
+            "goals": 30,
             "cleanSheet": 4
           }
         },
