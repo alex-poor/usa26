@@ -1009,8 +1009,8 @@
   },
   {
     "id": "537417",
-    "homeTeam": "RSA",
-    "awayTeam": "CAN",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
     "date": "2026-06-28",
@@ -1023,8 +1023,8 @@
   },
   {
     "id": "537423",
-    "homeTeam": "BRA",
-    "awayTeam": "JPN",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
     "date": "2026-06-29",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": "537415",
-    "homeTeam": "GER",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1051,8 +1051,8 @@
   },
   {
     "id": "537418",
-    "homeTeam": "NED",
-    "awayTeam": "MAR",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
     "date": "2026-06-30",
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "537425",
-    "homeTeam": "MEX",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1135,8 +1135,8 @@
   },
   {
     "id": "537421",
-    "homeTeam": "USA",
-    "awayTeam": "BIH",
+    "homeTeam": null,
+    "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-02",
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "537429",
-    "homeTeam": "SUI",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1191,7 +1191,7 @@
   },
   {
     "id": "537428",
-    "homeTeam": "AUS",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
@@ -1205,7 +1205,7 @@
   },
   {
     "id": "537427",
-    "homeTeam": "ARG",
+    "homeTeam": null,
     "awayTeam": null,
     "homeScore": null,
     "awayScore": null,
