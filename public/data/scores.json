@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-25T23:20:52.640Z",
+  "lastUpdated": "2026-06-26T03:57:49.748Z",
   "prevTotals": {
     "alex": 45,
     "brett": 79,
-    "surane": 59,
+    "surane": 74,
     "ardeshir": 81,
-    "cliff": 54,
+    "cliff": 57,
     "david": 32,
-    "felipe": 32,
+    "felipe": 43,
     "kyle": 46,
     "rei": 62,
     "milan": 55,
@@ -288,7 +288,7 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 55,
+      "total": 60,
       "teams": {
         "ENG": {
           "total": 23,
@@ -300,10 +300,11 @@
           }
         },
         "SWE": {
-          "total": 23,
+          "total": 28,
           "breakdown": {
             "win": 5,
-            "goals": 18
+            "goals": 21,
+            "draw": 2
           }
         },
         "CUW": {
@@ -319,17 +320,17 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 34,
+      "total": 39,
       "teams": {
         "URY": {
           "total": 0,
           "breakdown": {}
         },
         "JPN": {
-          "total": 29,
+          "total": 34,
           "breakdown": {
-            "draw": 2,
-            "goals": 18,
+            "draw": 4,
+            "goals": 21,
             "win": 5,
             "cleanSheet": 4
           }
