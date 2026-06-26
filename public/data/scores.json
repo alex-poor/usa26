@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T03:57:49.748Z",
+  "lastUpdated": "2026-06-26T07:59:31.908Z",
   "prevTotals": {
     "alex": 45,
     "brett": 79,
@@ -10,8 +10,8 @@
     "felipe": 43,
     "kyle": 46,
     "rei": 62,
-    "milan": 55,
-    "nathan": 34
+    "milan": 60,
+    "nathan": 39
   },
   "players": [
     {
@@ -198,7 +198,7 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 43,
+      "total": 49,
       "teams": {
         "BEL": {
           "total": 11,
@@ -218,11 +218,12 @@
           }
         },
         "PAR": {
-          "total": 15,
+          "total": 21,
           "breakdown": {
             "goals": 6,
             "win": 5,
-            "cleanSheet": 4
+            "cleanSheet": 8,
+            "draw": 2
           }
         }
       }
@@ -258,7 +259,7 @@
     {
       "id": "rei",
       "name": "Rei",
-      "total": 62,
+      "total": 68,
       "teams": {
         "BRA": {
           "total": 41,
@@ -270,11 +271,12 @@
           }
         },
         "AUS": {
-          "total": 15,
+          "total": 21,
           "breakdown": {
             "win": 5,
             "goals": 6,
-            "cleanSheet": 4
+            "cleanSheet": 8,
+            "draw": 2
           }
         },
         "HAI": {
