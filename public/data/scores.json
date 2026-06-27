@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-27T03:41:04.362Z",
+  "lastUpdated": "2026-06-27T06:54:25.806Z",
   "prevTotals": {
     "alex": 45,
-    "brett": 79,
+    "brett": 91,
     "surane": 74,
     "ardeshir": 81,
     "cliff": 57,
@@ -11,7 +11,7 @@
     "kyle": 63,
     "rei": 68,
     "milan": 60,
-    "nathan": 39
+    "nathan": 58
   },
   "players": [
     {
@@ -81,7 +81,7 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 74,
+      "total": 77,
       "teams": {
         "ARG": {
           "total": 33,
@@ -100,10 +100,10 @@
           }
         },
         "NZL": {
-          "total": 11,
+          "total": 14,
           "breakdown": {
             "draw": 2,
-            "goals": 9
+            "goals": 12
           }
         }
       }
@@ -142,7 +142,7 @@
     {
       "id": "cliff",
       "name": "Cliff",
-      "total": 57,
+      "total": 62,
       "teams": {
         "GER": {
           "total": 40,
@@ -152,10 +152,10 @@
           }
         },
         "IRN": {
-          "total": 14,
+          "total": 19,
           "breakdown": {
-            "draw": 4,
-            "goals": 6,
+            "draw": 6,
+            "goals": 9,
             "cleanSheet": 4
           }
         },
@@ -198,14 +198,15 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 49,
+      "total": 69,
       "teams": {
         "BEL": {
-          "total": 11,
+          "total": 31,
           "breakdown": {
             "draw": 4,
-            "goals": 3,
-            "cleanSheet": 4
+            "goals": 18,
+            "cleanSheet": 4,
+            "win": 5
           }
         },
         "ECU": {
@@ -322,14 +323,11 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 58,
+      "total": 45,
       "teams": {
         "URY": {
-          "total": 13,
-          "breakdown": {
-            "draw": 4,
-            "goals": 9
-          }
+          "total": 0,
+          "breakdown": {}
         },
         "JPN": {
           "total": 34,

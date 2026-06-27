@@ -198,7 +198,7 @@
   {
     "id": "537370",
     "homeTeam": "KSA",
-    "awayTeam": "URY",
+    "awayTeam": "URU",
     "homeScore": 1,
     "awayScore": 1,
     "date": "2026-06-15",
@@ -533,7 +533,7 @@
   },
   {
     "id": "537372",
-    "homeTeam": "URY",
+    "homeTeam": "URU",
     "awayTeam": "CPV",
     "homeScore": 2,
     "awayScore": 2,
@@ -869,7 +869,7 @@
   },
   {
     "id": "537373",
-    "homeTeam": "URY",
+    "homeTeam": "URU",
     "awayTeam": "ESP",
     "homeScore": 0,
     "awayScore": 1,
@@ -899,29 +899,29 @@
     "id": "537367",
     "homeTeam": "NZL",
     "awayTeam": "BEL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 5,
     "date": "2026-06-27",
     "time": "03:00",
     "utc": "2026-06-27T03:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "LIVE"
+    "status": "FINISHED"
   },
   {
     "id": "537368",
     "homeTeam": "EGY",
     "awayTeam": "IRN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "date": "2026-06-27",
     "time": "03:00",
     "utc": "2026-06-27T03:00:00Z",
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_G",
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537413",
