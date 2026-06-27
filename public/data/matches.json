@@ -935,7 +935,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537414",
@@ -949,7 +949,7 @@
     "venue": "",
     "stage": "GROUP_STAGE",
     "group": "GROUP_L",
-    "status": "TIMED"
+    "status": "LIVE"
   },
   {
     "id": "537407",
