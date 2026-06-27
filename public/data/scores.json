@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T21:06:37.101Z",
+  "lastUpdated": "2026-06-27T23:04:22.422Z",
   "prevTotals": {
     "alex": 45,
     "brett": 91,
@@ -170,13 +170,13 @@
     {
       "id": "david",
       "name": "David",
-      "total": 32,
+      "total": 43,
       "teams": {
         "CRO": {
-          "total": 18,
+          "total": 29,
           "breakdown": {
-            "goals": 9,
-            "win": 5,
+            "goals": 15,
+            "win": 10,
             "cleanSheet": 4
           }
         },
@@ -291,15 +291,15 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 60,
+      "total": 75,
       "teams": {
         "ENG": {
-          "total": 23,
+          "total": 38,
           "breakdown": {
-            "win": 5,
-            "goals": 12,
+            "win": 10,
+            "goals": 18,
             "draw": 2,
-            "cleanSheet": 4
+            "cleanSheet": 8
           }
         },
         "SWE": {
