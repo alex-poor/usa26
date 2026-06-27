@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T23:09:08.789Z",
+  "lastUpdated": "2026-06-27T03:41:04.362Z",
   "prevTotals": {
     "alex": 45,
     "brett": 79,
@@ -47,15 +47,15 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 79,
+      "total": 91,
       "teams": {
         "ESP": {
-          "total": 27,
+          "total": 39,
           "breakdown": {
             "draw": 2,
-            "cleanSheet": 8,
-            "win": 5,
-            "goals": 12
+            "cleanSheet": 12,
+            "win": 10,
+            "goals": 15
           }
         },
         "CAN": {
@@ -322,11 +322,14 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 39,
+      "total": 58,
       "teams": {
         "URY": {
-          "total": 0,
-          "breakdown": {}
+          "total": 13,
+          "breakdown": {
+            "draw": 4,
+            "goals": 9
+          }
         },
         "JPN": {
           "total": 34,
@@ -338,10 +341,11 @@
           }
         },
         "KSA": {
-          "total": 5,
+          "total": 11,
           "breakdown": {
-            "draw": 2,
-            "goals": 3
+            "draw": 4,
+            "goals": 3,
+            "cleanSheet": 4
           }
         }
       }
