@@ -1,45 +1,47 @@
 {
-  "lastUpdated": "2026-06-27T23:04:22.422Z",
+  "lastUpdated": "2026-06-28T04:04:35.087Z",
   "prevTotals": {
     "alex": 45,
     "brett": 91,
     "surane": 77,
     "ardeshir": 81,
     "cliff": 62,
-    "david": 32,
+    "david": 43,
     "felipe": 69,
     "kyle": 63,
     "rei": 68,
-    "milan": 60,
+    "milan": 75,
     "nathan": 45
   },
   "players": [
     {
       "id": "alex",
       "name": "Alex",
-      "total": 45,
+      "total": 76,
       "teams": {
         "POR": {
-          "total": 29,
+          "total": 35,
           "breakdown": {
-            "draw": 2,
+            "draw": 4,
             "goals": 18,
             "win": 5,
-            "cleanSheet": 4
+            "cleanSheet": 8
           }
         },
         "ALG": {
-          "total": 11,
+          "total": 22,
           "breakdown": {
             "win": 5,
-            "goals": 6
+            "goals": 15,
+            "draw": 2
           }
         },
         "COD": {
-          "total": 5,
+          "total": 19,
           "breakdown": {
             "draw": 2,
-            "goals": 3
+            "goals": 12,
+            "win": 5
           }
         }
       }
@@ -81,13 +83,13 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 77,
+      "total": 91,
       "teams": {
         "ARG": {
-          "total": 33,
+          "total": 47,
           "breakdown": {
-            "win": 10,
-            "goals": 15,
+            "win": 15,
+            "goals": 24,
             "cleanSheet": 8
           }
         },
@@ -111,14 +113,15 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 81,
+      "total": 87,
       "teams": {
         "COL": {
-          "total": 26,
+          "total": 32,
           "breakdown": {
             "win": 10,
             "goals": 12,
-            "cleanSheet": 4
+            "cleanSheet": 8,
+            "draw": 2
           }
         },
         "SUI": {
@@ -170,7 +173,7 @@
     {
       "id": "david",
       "name": "David",
-      "total": 43,
+      "total": 46,
       "teams": {
         "CRO": {
           "total": 29,
@@ -188,9 +191,9 @@
           }
         },
         "JOR": {
-          "total": 6,
+          "total": 9,
           "breakdown": {
-            "goals": 6
+            "goals": 9
           }
         }
       }
@@ -232,7 +235,7 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 63,
+      "total": 66,
       "teams": {
         "FRA": {
           "total": 49,
@@ -250,9 +253,9 @@
           }
         },
         "UZB": {
-          "total": 3,
+          "total": 6,
           "breakdown": {
-            "goals": 3
+            "goals": 6
           }
         }
       }
