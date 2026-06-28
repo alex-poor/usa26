@@ -1011,15 +1011,15 @@
     "id": "537417",
     "homeTeam": "RSA",
     "awayTeam": "CAN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "date": "2026-06-28",
     "time": "19:00",
     "utc": "2026-06-28T19:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537423",
