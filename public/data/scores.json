@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T18:09:46.710Z",
+  "lastUpdated": "2026-06-29T21:28:00.170Z",
   "prevTotals": {
     "alex": 76,
     "brett": 113,
@@ -265,15 +265,16 @@
     {
       "id": "rei",
       "name": "Rei",
-      "total": 68,
+      "total": 84,
       "teams": {
         "BRA": {
-          "total": 41,
+          "total": 57,
           "breakdown": {
             "draw": 2,
-            "goals": 21,
-            "win": 10,
-            "cleanSheet": 8
+            "goals": 27,
+            "win": 15,
+            "cleanSheet": 8,
+            "LAST_32": 5
           }
         },
         "AUS": {
@@ -328,19 +329,20 @@
     {
       "id": "nathan",
       "name": "Nathan",
-      "total": 45,
+      "total": 53,
       "teams": {
         "URY": {
           "total": 0,
           "breakdown": {}
         },
         "JPN": {
-          "total": 34,
+          "total": 42,
           "breakdown": {
             "draw": 4,
-            "goals": 21,
+            "goals": 24,
             "win": 5,
-            "cleanSheet": 4
+            "cleanSheet": 4,
+            "LAST_32": 5
           }
         },
         "KSA": {

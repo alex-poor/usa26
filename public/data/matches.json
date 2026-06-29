@@ -1025,15 +1025,15 @@
     "id": "537423",
     "homeTeam": "BRA",
     "awayTeam": "JPN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "date": "2026-06-29",
     "time": "17:00",
     "utc": "2026-06-29T17:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537415",
@@ -1047,7 +1047,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED"
+    "status": "PAUSED"
   },
   {
     "id": "537418",
