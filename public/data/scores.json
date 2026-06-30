@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T23:01:08.613Z",
+  "lastUpdated": "2026-06-30T03:54:05.692Z",
   "prevTotals": {
     "alex": 76,
     "brett": 113,
@@ -147,13 +147,14 @@
     {
       "id": "cliff",
       "name": "Cliff",
-      "total": 62,
+      "total": 79,
       "teams": {
         "GER": {
-          "total": 40,
+          "total": 57,
           "breakdown": {
             "win": 10,
-            "goals": 30
+            "goals": 42,
+            "LAST_32": 5
           }
         },
         "IRN": {
@@ -203,7 +204,7 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 69,
+      "total": 94,
       "teams": {
         "BEL": {
           "total": 31,
@@ -224,12 +225,13 @@
           }
         },
         "PAR": {
-          "total": 21,
+          "total": 46,
           "breakdown": {
-            "goals": 6,
-            "win": 5,
+            "goals": 21,
+            "win": 10,
             "cleanSheet": 8,
-            "draw": 2
+            "draw": 2,
+            "LAST_32": 5
           }
         }
       }
