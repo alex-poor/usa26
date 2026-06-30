@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-30T20:09:56.880Z",
+  "lastUpdated": "2026-06-30T23:15:41.827Z",
   "prevTotals": {
     "alex": 76,
     "brett": 113,
-    "surane": 91,
+    "surane": 99,
     "ardeshir": 87,
     "cliff": 79,
     "david": 46,
@@ -240,14 +240,15 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 66,
+      "total": 89,
       "teams": {
         "FRA": {
-          "total": 49,
+          "total": 72,
           "breakdown": {
-            "win": 15,
-            "goals": 30,
-            "cleanSheet": 4
+            "win": 20,
+            "goals": 39,
+            "cleanSheet": 8,
+            "LAST_32": 5
           }
         },
         "KOR": {
@@ -300,7 +301,7 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 75,
+      "total": 80,
       "teams": {
         "ENG": {
           "total": 38,
@@ -312,11 +313,12 @@
           }
         },
         "SWE": {
-          "total": 28,
+          "total": 33,
           "breakdown": {
             "win": 5,
             "goals": 21,
-            "draw": 2
+            "draw": 2,
+            "LAST_32": 5
           }
         },
         "CUW": {

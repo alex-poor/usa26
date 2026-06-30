@@ -1081,15 +1081,15 @@
     "id": "537416",
     "homeTeam": "FRA",
     "awayTeam": "SWE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "date": "2026-06-30",
     "time": "21:00",
     "utc": "2026-06-30T21:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537425",
