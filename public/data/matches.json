@@ -1067,15 +1067,15 @@
     "id": "537424",
     "homeTeam": "CIV",
     "awayTeam": "NOR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "date": "2026-06-30",
     "time": "17:00",
     "utc": "2026-06-30T17:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537416",

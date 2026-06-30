@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:58:06.389Z",
+  "lastUpdated": "2026-06-30T20:09:56.880Z",
   "prevTotals": {
     "alex": 76,
     "brett": 113,
@@ -85,7 +85,7 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 91,
+      "total": 99,
       "teams": {
         "ARG": {
           "total": 47,
@@ -96,11 +96,12 @@
           }
         },
         "CIV": {
-          "total": 30,
+          "total": 38,
           "breakdown": {
             "win": 10,
-            "goals": 12,
-            "cleanSheet": 8
+            "goals": 15,
+            "cleanSheet": 8,
+            "LAST_32": 5
           }
         },
         "NZL": {
