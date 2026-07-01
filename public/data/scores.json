@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T23:15:41.827Z",
+  "lastUpdated": "2026-07-01T04:08:24.158Z",
   "prevTotals": {
     "alex": 76,
     "brett": 113,
@@ -8,9 +8,9 @@
     "cliff": 79,
     "david": 46,
     "felipe": 94,
-    "kyle": 66,
+    "kyle": 89,
     "rei": 84,
-    "milan": 75,
+    "milan": 80,
     "nathan": 53
   },
   "players": [
@@ -205,7 +205,7 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 94,
+      "total": 99,
       "teams": {
         "BEL": {
           "total": 31,
@@ -217,12 +217,13 @@
           }
         },
         "ECU": {
-          "total": 17,
+          "total": 22,
           "breakdown": {
             "draw": 2,
             "cleanSheet": 4,
             "win": 5,
-            "goals": 6
+            "goals": 6,
+            "LAST_32": 5
           }
         },
         "PAR": {

@@ -1095,15 +1095,15 @@
     "id": "537425",
     "homeTeam": "MEX",
     "awayTeam": "ECU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "date": "2026-07-01",
     "time": "01:00",
     "utc": "2026-07-01T01:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537426",
