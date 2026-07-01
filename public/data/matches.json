@@ -1123,15 +1123,15 @@
     "id": "537422",
     "homeTeam": "BEL",
     "awayTeam": "SEN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "date": "2026-07-01",
     "time": "20:00",
     "utc": "2026-07-01T20:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537421",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T21:43:47.012Z",
+  "lastUpdated": "2026-07-01T23:18:12.090Z",
   "prevTotals": {
     "alex": 84,
     "brett": 113,
@@ -206,15 +206,16 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 99,
+      "total": 118,
       "teams": {
         "BEL": {
-          "total": 31,
+          "total": 50,
           "breakdown": {
             "draw": 4,
-            "goals": 18,
+            "goals": 27,
             "cleanSheet": 4,
-            "win": 5
+            "win": 10,
+            "LAST_32": 5
           }
         },
         "ECU": {
