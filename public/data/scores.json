@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T16:28:02.076Z",
+  "lastUpdated": "2026-07-01T19:59:26.495Z",
   "prevTotals": {
     "alex": 76,
     "brett": 113,
@@ -17,7 +17,7 @@
     {
       "id": "alex",
       "name": "Alex",
-      "total": 76,
+      "total": 84,
       "teams": {
         "POR": {
           "total": 35,
@@ -37,11 +37,12 @@
           }
         },
         "COD": {
-          "total": 19,
+          "total": 27,
           "breakdown": {
             "draw": 2,
-            "goals": 12,
-            "win": 5
+            "goals": 15,
+            "win": 5,
+            "LAST_32": 5
           }
         }
       }
@@ -302,15 +303,16 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 80,
+      "total": 96,
       "teams": {
         "ENG": {
-          "total": 38,
+          "total": 54,
           "breakdown": {
-            "win": 10,
-            "goals": 18,
+            "win": 15,
+            "goals": 24,
             "draw": 2,
-            "cleanSheet": 8
+            "cleanSheet": 8,
+            "LAST_32": 5
           }
         },
         "SWE": {

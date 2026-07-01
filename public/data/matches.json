@@ -1109,15 +1109,15 @@
     "id": "537426",
     "homeTeam": "ENG",
     "awayTeam": "COD",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "date": "2026-07-01",
     "time": "16:00",
     "utc": "2026-07-01T16:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "LIVE"
+    "status": "FINISHED"
   },
   {
     "id": "537422",
