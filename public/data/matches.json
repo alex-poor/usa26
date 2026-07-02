@@ -1151,15 +1151,15 @@
     "id": "537420",
     "homeTeam": "ESP",
     "awayTeam": "AUT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "date": "2026-07-02",
     "time": "19:00",
     "utc": "2026-07-02T19:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537419",
