@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:18:12.090Z",
+  "lastUpdated": "2026-07-02T03:49:55.152Z",
   "prevTotals": {
     "alex": 84,
     "brett": 113,
@@ -7,7 +7,7 @@
     "ardeshir": 87,
     "cliff": 79,
     "david": 46,
-    "felipe": 99,
+    "felipe": 118,
     "kyle": 89,
     "rei": 84,
     "milan": 96,
@@ -117,7 +117,7 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 87,
+      "total": 92,
       "teams": {
         "COL": {
           "total": 32,
@@ -137,11 +137,12 @@
           }
         },
         "BIH": {
-          "total": 22,
+          "total": 27,
           "breakdown": {
             "draw": 2,
             "goals": 15,
-            "win": 5
+            "win": 5,
+            "LAST_32": 5
           }
         }
       }
