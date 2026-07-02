@@ -1275,8 +1275,8 @@
   },
   {
     "id": "537378",
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "MEX",
+    "awayTeam": "ENG",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-06",
@@ -1303,8 +1303,8 @@
   },
   {
     "id": "537380",
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "USA",
+    "awayTeam": "BEL",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-07",
