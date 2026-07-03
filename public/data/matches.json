@@ -1193,15 +1193,15 @@
     "id": "537428",
     "homeTeam": "AUS",
     "awayTeam": "EGY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 5,
     "date": "2026-07-03",
     "time": "18:00",
     "utc": "2026-07-03T18:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537427",
