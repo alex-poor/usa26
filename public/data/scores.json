@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-03T03:30:59.027Z",
+  "lastUpdated": "2026-07-03T07:23:02.089Z",
   "prevTotals": {
-    "alex": 84,
+    "alex": 100,
     "brett": 136,
     "surane": 99,
     "ardeshir": 92,
     "cliff": 79,
-    "david": 46,
+    "david": 54,
     "felipe": 118,
     "kyle": 89,
     "rei": 84,
@@ -17,7 +17,7 @@
     {
       "id": "alex",
       "name": "Alex",
-      "total": 100,
+      "total": 105,
       "teams": {
         "POR": {
           "total": 51,
@@ -30,11 +30,12 @@
           }
         },
         "ALG": {
-          "total": 22,
+          "total": 27,
           "breakdown": {
             "win": 5,
             "goals": 15,
-            "draw": 2
+            "draw": 2,
+            "LAST_32": 5
           }
         },
         "COD": {
@@ -119,7 +120,7 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 92,
+      "total": 112,
       "teams": {
         "COL": {
           "total": 32,
@@ -131,11 +132,13 @@
           }
         },
         "SUI": {
-          "total": 33,
+          "total": 53,
           "breakdown": {
             "draw": 2,
-            "goals": 21,
-            "win": 10
+            "goals": 27,
+            "win": 15,
+            "cleanSheet": 4,
+            "LAST_32": 5
           }
         },
         "BIH": {

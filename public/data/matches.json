@@ -1179,15 +1179,15 @@
     "id": "537429",
     "homeTeam": "SUI",
     "awayTeam": "ALG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "date": "2026-07-03",
     "time": "03:00",
     "utc": "2026-07-03T03:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537428",
