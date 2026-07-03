@@ -1165,15 +1165,15 @@
     "id": "537419",
     "homeTeam": "POR",
     "awayTeam": "CRO",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "date": "2026-07-02",
     "time": "23:00",
     "utc": "2026-07-02T23:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537429",
@@ -1187,7 +1187,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537428",

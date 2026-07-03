@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:10:15.035Z",
+  "lastUpdated": "2026-07-03T03:30:59.027Z",
   "prevTotals": {
     "alex": 84,
     "brett": 136,
@@ -17,15 +17,16 @@
     {
       "id": "alex",
       "name": "Alex",
-      "total": 84,
+      "total": 100,
       "teams": {
         "POR": {
-          "total": 35,
+          "total": 51,
           "breakdown": {
             "draw": 4,
-            "goals": 18,
-            "win": 5,
-            "cleanSheet": 8
+            "goals": 24,
+            "win": 10,
+            "cleanSheet": 8,
+            "LAST_32": 5
           }
         },
         "ALG": {
@@ -180,14 +181,15 @@
     {
       "id": "david",
       "name": "David",
-      "total": 46,
+      "total": 54,
       "teams": {
         "CRO": {
-          "total": 29,
+          "total": 37,
           "breakdown": {
-            "goals": 15,
+            "goals": 18,
             "win": 10,
-            "cleanSheet": 4
+            "cleanSheet": 4,
+            "LAST_32": 5
           }
         },
         "CZE": {
