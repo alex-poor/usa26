@@ -1207,15 +1207,15 @@
     "id": "537427",
     "homeTeam": "ARG",
     "awayTeam": "CPV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "date": "2026-07-03",
     "time": "22:00",
     "utc": "2026-07-03T22:00:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537430",
@@ -1229,7 +1229,7 @@
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537376",
