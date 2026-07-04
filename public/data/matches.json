@@ -1221,15 +1221,15 @@
     "id": "537430",
     "homeTeam": "COL",
     "awayTeam": "GHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "date": "2026-07-04",
     "time": "01:30",
     "utc": "2026-07-04T01:30:00Z",
     "venue": "",
     "stage": "LAST_32",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537376",
@@ -1289,8 +1289,8 @@
   },
   {
     "id": "537379",
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "POR",
+    "awayTeam": "ESP",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-06",
@@ -1317,8 +1317,8 @@
   },
   {
     "id": "537381",
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "ARG",
+    "awayTeam": "EGY",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-07",
@@ -1331,8 +1331,8 @@
   },
   {
     "id": "537382",
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "SUI",
+    "awayTeam": "COL",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-07",

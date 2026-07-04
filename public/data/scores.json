@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-07-04T03:23:32.048Z",
+  "lastUpdated": "2026-07-04T06:48:47.620Z",
   "prevTotals": {
     "alex": 105,
     "brett": 136,
-    "surane": 99,
+    "surane": 118,
     "ardeshir": 112,
     "cliff": 79,
     "david": 54,
@@ -121,15 +121,16 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 112,
+      "total": 129,
       "teams": {
         "COL": {
-          "total": 32,
+          "total": 49,
           "breakdown": {
-            "win": 10,
-            "goals": 12,
-            "cleanSheet": 8,
-            "draw": 2
+            "win": 15,
+            "goals": 15,
+            "cleanSheet": 12,
+            "draw": 2,
+            "LAST_32": 5
           }
         },
         "SUI": {
