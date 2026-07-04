@@ -1235,15 +1235,15 @@
     "id": "537376",
     "homeTeam": "CAN",
     "awayTeam": "MAR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 3,
     "date": "2026-07-04",
     "time": "17:00",
     "utc": "2026-07-04T17:00:00Z",
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537375",
