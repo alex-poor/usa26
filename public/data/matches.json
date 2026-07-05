@@ -1249,15 +1249,15 @@
     "id": "537375",
     "homeTeam": "PAR",
     "awayTeam": "FRA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "date": "2026-07-04",
     "time": "21:00",
     "utc": "2026-07-04T21:00:00Z",
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537377",
