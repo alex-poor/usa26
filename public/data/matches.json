@@ -1277,15 +1277,15 @@
     "id": "537378",
     "homeTeam": "MEX",
     "awayTeam": "ENG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 3,
     "date": "2026-07-06",
-    "time": "00:00",
-    "utc": "2026-07-06T00:00:00Z",
+    "time": "01:00",
+    "utc": "2026-07-06T01:00:00Z",
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537379",

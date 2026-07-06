@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T23:03:19.480Z",
+  "lastUpdated": "2026-07-06T03:48:35.791Z",
   "prevTotals": {
     "alex": 105,
     "brett": 146,
@@ -9,7 +9,7 @@
     "david": 54,
     "felipe": 128,
     "kyle": 111,
-    "rei": 98,
+    "rei": 111,
     "milan": 96,
     "nathan": 53
   },
@@ -318,16 +318,17 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 96,
+      "total": 120,
       "teams": {
         "ENG": {
-          "total": 54,
+          "total": 78,
           "breakdown": {
-            "win": 15,
-            "goals": 24,
+            "win": 20,
+            "goals": 33,
             "draw": 2,
             "cleanSheet": 8,
-            "LAST_32": 5
+            "LAST_32": 5,
+            "LAST_16": 10
           }
         },
         "SWE": {
