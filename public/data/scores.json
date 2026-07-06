@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T20:01:23.023Z",
+  "lastUpdated": "2026-07-06T23:10:53.373Z",
   "prevTotals": {
     "alex": 105,
     "brett": 146,
@@ -17,16 +17,17 @@
     {
       "id": "alex",
       "name": "Alex",
-      "total": 105,
+      "total": 115,
       "teams": {
         "POR": {
-          "total": 51,
+          "total": 61,
           "breakdown": {
             "draw": 4,
             "goals": 24,
             "win": 10,
             "cleanSheet": 8,
-            "LAST_32": 5
+            "LAST_32": 5,
+            "LAST_16": 10
           }
         },
         "ALG": {
@@ -52,16 +53,17 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 146,
+      "total": 168,
       "teams": {
         "ESP": {
-          "total": 62,
+          "total": 84,
           "breakdown": {
             "draw": 2,
-            "cleanSheet": 16,
-            "win": 15,
-            "goals": 24,
-            "LAST_32": 5
+            "cleanSheet": 20,
+            "win": 20,
+            "goals": 27,
+            "LAST_32": 5,
+            "LAST_16": 10
           }
         },
         "CAN": {

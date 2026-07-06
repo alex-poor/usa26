@@ -1291,15 +1291,15 @@
     "id": "537379",
     "homeTeam": "POR",
     "awayTeam": "ESP",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "date": "2026-07-06",
     "time": "19:00",
     "utc": "2026-07-06T19:00:00Z",
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "PAUSED"
+    "status": "FINISHED"
   },
   {
     "id": "537380",
