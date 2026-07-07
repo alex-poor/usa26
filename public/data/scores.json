@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-07-06T23:10:53.373Z",
+  "lastUpdated": "2026-07-07T03:38:43.727Z",
   "prevTotals": {
-    "alex": 105,
-    "brett": 146,
+    "alex": 115,
+    "brett": 168,
     "surane": 118,
     "ardeshir": 129,
     "cliff": 79,
@@ -218,16 +218,17 @@
     {
       "id": "felipe",
       "name": "Felipe",
-      "total": 128,
+      "total": 155,
       "teams": {
         "BEL": {
-          "total": 50,
+          "total": 77,
           "breakdown": {
             "draw": 4,
-            "goals": 27,
+            "goals": 39,
             "cleanSheet": 4,
-            "win": 10,
-            "LAST_32": 5
+            "win": 15,
+            "LAST_32": 5,
+            "LAST_16": 10
           }
         },
         "ECU": {

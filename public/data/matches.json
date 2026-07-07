@@ -1305,15 +1305,15 @@
     "id": "537380",
     "homeTeam": "USA",
     "awayTeam": "BEL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 4,
     "date": "2026-07-07",
     "time": "00:00",
     "utc": "2026-07-07T00:00:00Z",
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED"
+    "status": "FINISHED"
   },
   {
     "id": "537381",
