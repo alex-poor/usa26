@@ -1319,15 +1319,15 @@
     "id": "537381",
     "homeTeam": "ARG",
     "awayTeam": "EGY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "date": "2026-07-07",
     "time": "16:00",
     "utc": "2026-07-07T16:00:00Z",
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537382",
@@ -1341,7 +1341,7 @@
     "venue": "",
     "stage": "LAST_16",
     "group": null,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537383",
