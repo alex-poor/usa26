@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T21:36:46.867Z",
+  "lastUpdated": "2026-07-09T23:13:46.801Z",
   "prevTotals": {
     "alex": 115,
     "brett": 168,
@@ -260,16 +260,17 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 111,
+      "total": 141,
       "teams": {
         "FRA": {
-          "total": 94,
+          "total": 124,
           "breakdown": {
-            "win": 25,
-            "goals": 42,
-            "cleanSheet": 12,
+            "win": 30,
+            "goals": 48,
+            "cleanSheet": 16,
             "LAST_32": 5,
-            "LAST_16": 10
+            "LAST_16": 10,
+            "QUARTER_FINALS": 15
           }
         },
         "KOR": {

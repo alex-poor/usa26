@@ -1347,15 +1347,15 @@
     "id": "537383",
     "homeTeam": "FRA",
     "awayTeam": "MAR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "date": "2026-07-09",
     "time": "20:00",
     "utc": "2026-07-09T20:00:00Z",
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537384",
