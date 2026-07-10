@@ -1361,15 +1361,15 @@
     "id": "537384",
     "homeTeam": "ESP",
     "awayTeam": "BEL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "date": "2026-07-10",
     "time": "19:00",
     "utc": "2026-07-10T19:00:00Z",
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537385",
