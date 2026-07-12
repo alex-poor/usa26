@@ -1375,15 +1375,15 @@
     "id": "537385",
     "homeTeam": "NOR",
     "awayTeam": "ENG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "date": "2026-07-11",
     "time": "21:00",
     "utc": "2026-07-11T21:00:00Z",
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537386",
@@ -1397,7 +1397,7 @@
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "TIMED"
+    "status": "IN_PLAY"
   },
   {
     "id": "537387",

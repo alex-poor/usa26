@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T22:52:20.400Z",
+  "lastUpdated": "2026-07-12T02:58:12.282Z",
   "prevTotals": {
     "alex": 115,
     "brett": 194,
@@ -327,17 +327,18 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 120,
+      "total": 146,
       "teams": {
         "ENG": {
-          "total": 78,
+          "total": 104,
           "breakdown": {
-            "win": 20,
-            "goals": 33,
+            "win": 25,
+            "goals": 39,
             "draw": 2,
             "cleanSheet": 8,
             "LAST_32": 5,
-            "LAST_16": 10
+            "LAST_16": 10,
+            "QUARTER_FINALS": 15
           }
         },
         "SWE": {
