@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T02:58:12.282Z",
+  "lastUpdated": "2026-07-12T06:35:04.022Z",
   "prevTotals": {
     "alex": 115,
     "brett": 194,
@@ -10,7 +10,7 @@
     "felipe": 173,
     "kyle": 141,
     "rei": 111,
-    "milan": 120,
+    "milan": 146,
     "nathan": 53
   },
   "players": [
@@ -93,16 +93,17 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 142,
+      "total": 171,
       "teams": {
         "ARG": {
-          "total": 90,
+          "total": 119,
           "breakdown": {
-            "win": 25,
-            "goals": 42,
+            "win": 30,
+            "goals": 51,
             "cleanSheet": 8,
             "LAST_32": 5,
-            "LAST_16": 10
+            "LAST_16": 10,
+            "QUARTER_FINALS": 15
           }
         },
         "CIV": {
@@ -126,7 +127,7 @@
     {
       "id": "ardeshir",
       "name": "Ardeshir",
-      "total": 175,
+      "total": 193,
       "teams": {
         "COL": {
           "total": 68,
@@ -140,14 +141,15 @@
           }
         },
         "SUI": {
-          "total": 80,
+          "total": 98,
           "breakdown": {
             "draw": 2,
-            "goals": 39,
+            "goals": 42,
             "win": 20,
             "cleanSheet": 4,
             "LAST_32": 5,
-            "LAST_16": 10
+            "LAST_16": 10,
+            "QUARTER_FINALS": 15
           }
         },
         "BIH": {

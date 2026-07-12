@@ -1389,15 +1389,15 @@
     "id": "537386",
     "homeTeam": "ARG",
     "awayTeam": "SUI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "date": "2026-07-12",
     "time": "01:00",
     "utc": "2026-07-12T01:00:00Z",
     "venue": "",
     "stage": "QUARTER_FINALS",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537387",
@@ -1415,8 +1415,8 @@
   },
   {
     "id": "537388",
-    "homeTeam": null,
-    "awayTeam": null,
+    "homeTeam": "ENG",
+    "awayTeam": "ARG",
     "homeScore": null,
     "awayScore": null,
     "date": "2026-07-15",
