@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T21:02:18.679Z",
+  "lastUpdated": "2026-07-14T22:58:12.771Z",
   "prevTotals": {
     "alex": 115,
     "brett": 194,
@@ -53,18 +53,19 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 194,
+      "total": 229,
       "teams": {
         "ESP": {
-          "total": 110,
+          "total": 145,
           "breakdown": {
             "draw": 2,
-            "cleanSheet": 20,
-            "win": 25,
-            "goals": 33,
+            "cleanSheet": 24,
+            "win": 30,
+            "goals": 39,
             "LAST_32": 5,
             "LAST_16": 10,
-            "QUARTER_FINALS": 15
+            "QUARTER_FINALS": 15,
+            "SEMI_FINALS": 20
           }
         },
         "CAN": {
@@ -264,17 +265,18 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 141,
+      "total": 161,
       "teams": {
         "FRA": {
-          "total": 124,
+          "total": 144,
           "breakdown": {
             "win": 30,
             "goals": 48,
             "cleanSheet": 16,
             "LAST_32": 5,
             "LAST_16": 10,
-            "QUARTER_FINALS": 15
+            "QUARTER_FINALS": 15,
+            "SEMI_FINALS": 20
           }
         },
         "KOR": {
