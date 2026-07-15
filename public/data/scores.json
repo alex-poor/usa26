@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T21:02:36.985Z",
+  "lastUpdated": "2026-07-15T22:59:28.986Z",
   "prevTotals": {
     "alex": 115,
     "brett": 229,
@@ -94,17 +94,18 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 171,
+      "total": 202,
       "teams": {
         "ARG": {
-          "total": 119,
+          "total": 150,
           "breakdown": {
-            "win": 30,
-            "goals": 51,
+            "win": 35,
+            "goals": 57,
             "cleanSheet": 8,
             "LAST_32": 5,
             "LAST_16": 10,
-            "QUARTER_FINALS": 15
+            "QUARTER_FINALS": 15,
+            "SEMI_FINALS": 20
           }
         },
         "CIV": {
@@ -331,18 +332,19 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 146,
+      "total": 169,
       "teams": {
         "ENG": {
-          "total": 104,
+          "total": 127,
           "breakdown": {
             "win": 25,
-            "goals": 39,
+            "goals": 42,
             "draw": 2,
             "cleanSheet": 8,
             "LAST_32": 5,
             "LAST_16": 10,
-            "QUARTER_FINALS": 15
+            "QUARTER_FINALS": 15,
+            "SEMI_FINALS": 20
           }
         },
         "SWE": {

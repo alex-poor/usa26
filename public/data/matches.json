@@ -1417,15 +1417,15 @@
     "id": "537388",
     "homeTeam": "ENG",
     "awayTeam": "ARG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "date": "2026-07-15",
     "time": "19:00",
     "utc": "2026-07-15T19:00:00Z",
     "venue": "",
     "stage": "SEMI_FINALS",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537389",
