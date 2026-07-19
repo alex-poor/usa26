@@ -1445,14 +1445,14 @@
     "id": "537390",
     "homeTeam": "ESP",
     "awayTeam": "ARG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "date": "2026-07-19",
     "time": "19:00",
     "utc": "2026-07-19T19:00:00Z",
     "venue": "",
     "stage": "FINAL",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   }
 ]

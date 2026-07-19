@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T20:53:01.176Z",
+  "lastUpdated": "2026-07-19T22:55:24.519Z",
   "prevTotals": {
     "alex": 115,
     "brett": 229,
@@ -53,19 +53,21 @@
     {
       "id": "brett",
       "name": "Brett",
-      "total": 229,
+      "total": 311,
       "teams": {
         "ESP": {
-          "total": 145,
+          "total": 227,
           "breakdown": {
             "draw": 2,
-            "cleanSheet": 24,
-            "win": 30,
-            "goals": 39,
+            "cleanSheet": 28,
+            "win": 35,
+            "goals": 42,
             "LAST_32": 5,
             "LAST_16": 10,
             "QUARTER_FINALS": 15,
-            "SEMI_FINALS": 20
+            "SEMI_FINALS": 20,
+            "FINAL": 30,
+            "WINNER": 40
           }
         },
         "CAN": {
@@ -94,10 +96,10 @@
     {
       "id": "surane",
       "name": "Surané",
-      "total": 202,
+      "total": 232,
       "teams": {
         "ARG": {
-          "total": 150,
+          "total": 180,
           "breakdown": {
             "win": 35,
             "goals": 57,
@@ -105,7 +107,8 @@
             "LAST_32": 5,
             "LAST_16": 10,
             "QUARTER_FINALS": 15,
-            "SEMI_FINALS": 20
+            "SEMI_FINALS": 20,
+            "FINAL": 30
           }
         },
         "CIV": {
