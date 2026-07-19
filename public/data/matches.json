@@ -1431,15 +1431,15 @@
     "id": "537389",
     "homeTeam": "FRA",
     "awayTeam": "ENG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 6,
     "date": "2026-07-18",
     "time": "21:00",
     "utc": "2026-07-18T21:00:00Z",
     "venue": "",
     "stage": "THIRD_PLACE",
     "group": null,
-    "status": "IN_PLAY"
+    "status": "FINISHED"
   },
   {
     "id": "537390",

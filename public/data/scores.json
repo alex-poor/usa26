@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:52:34.034Z",
+  "lastUpdated": "2026-07-19T02:55:17.823Z",
   "prevTotals": {
     "alex": 115,
     "brett": 229,
@@ -266,18 +266,19 @@
     {
       "id": "kyle",
       "name": "Kyle",
-      "total": 161,
+      "total": 193,
       "teams": {
         "FRA": {
-          "total": 144,
+          "total": 176,
           "breakdown": {
             "win": 30,
-            "goals": 48,
+            "goals": 60,
             "cleanSheet": 16,
             "LAST_32": 5,
             "LAST_16": 10,
             "QUARTER_FINALS": 15,
-            "SEMI_FINALS": 20
+            "SEMI_FINALS": 20,
+            "THIRD_PLACE": 20
           }
         },
         "KOR": {
@@ -332,19 +333,20 @@
     {
       "id": "milan",
       "name": "Milan",
-      "total": 169,
+      "total": 212,
       "teams": {
         "ENG": {
-          "total": 127,
+          "total": 170,
           "breakdown": {
-            "win": 25,
-            "goals": 42,
+            "win": 30,
+            "goals": 60,
             "draw": 2,
             "cleanSheet": 8,
             "LAST_32": 5,
             "LAST_16": 10,
             "QUARTER_FINALS": 15,
-            "SEMI_FINALS": 20
+            "SEMI_FINALS": 20,
+            "THIRD_PLACE": 20
           }
         },
         "SWE": {
